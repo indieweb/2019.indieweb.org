@@ -1,0 +1,395 @@
+.red-bkg {
+  background-color: #e93e36 !important;
+}
+.orange-bkg {
+  background-color: #ec683b !important;
+}
+.gold-bkg {
+  background-color: #f4b058 !important;
+}
+
+
+.event-header .summary {
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+
+
+.schedule-grid {
+  display: flex;
+  flex-direction: row;
+}
+.schedule-grid .day {
+  flex: 1;
+}
+
+.schedule-grid .header {
+  text-align: center;
+  color: white;
+}
+
+.schedule-grid .header, .schedule-grid .summary, .schedule-grid .location, .schedule-grid .details {
+  padding: 4px;
+}
+
+.schedule-grid ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.schedule-grid li {
+  margin: 0;
+  padding: 0;
+}
+
+
+.schedule-grid .time {
+  font-weight: bold;
+}
+.schedule-grid .featured {
+  font-weight: bold;
+}
+
+.schedule-grid .summary {
+  min-height: 10em;
+}
+
+.schedule-grid .details {
+  margin-top: 1em;
+}
+
+
+@media(max-width: 600px) {
+  .schedule-grid {
+    display: block;
+  }
+  .schedule-grid .day {
+    margin-top: 1em;
+  }
+  .schedule-grid .summary {
+    min-height: inherit;
+  }
+}
+
+
+
+#sponsors ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#sponsors li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+#sponsors span {
+  padding: 1em 1em;
+}
+#sponsors .logo {
+  flex: 1;
+  text-align: center;
+}
+#sponsors .description {
+  flex: 2;
+}
+#sponsors img {
+
+}
+
+
+.rsvps .rsvp {
+  width: 50%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+@media(max-width: 600px) {
+  .rsvps .rsvp {
+    float: none;
+    width: 100%;
+  }
+}
+.rsvp .profile-photo {
+  flex: 0 auto;
+  margin-right: 0.5em;
+}
+.rsvp .profile-info {
+  flex: 1 auto;
+}
+.rsvp .permalink {
+  word-break: break-all;
+  word-break: break-word;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+    -ms-hyphens: auto;
+        hyphens: auto;
+}
+.rsvp .permalink a {
+  color: #aaa;
+}
+.rsvp .permalink a:hover {
+  text-decoration: underline;
+}
+
+.rsvps .rsvp img {
+  border-radius: 4px;
+}
+
+
+
+.ui.secondary.inverted.pointing.menu {
+  border-color: rgba(255,255,255,.1);
+}
+
+
+.header-graphic {
+  font-size: 3rem;
+  color: white;
+  text-align: left;
+  background-size: cover;
+  color: white;
+  padding-top: 4em;
+  margin-bottom: 12px;
+}
+.ui.vertical.stripe .header-graphic h3 {
+  padding-left: 6px;
+  font-size: 5vh;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+
+#portland-section h3 {
+  color: #673718;
+}
+
+#social-media-section, #social-media-section a {
+  color: white;
+}
+
+
+
+.tito-wrapper {
+  border: 1px #fad3a0 solid;
+  background: #fce6cb;
+  border-radius: 6px;
+  padding: 8px;
+}
+.tito-ticket.row {
+  display: flex;
+  flex-direction: row;
+}
+.tito-ticket-name-wrapper {
+  flex: 1;
+}
+.tito-ticket-price-quantity-wrapper {
+  flex: 0 auto;
+}
+
+.tito-ticket-name {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.tito-ticket-name-wrapper .tito-tickets-remaining {
+  margin-left: 1em;
+  font-size: 10px;
+  border: 1px solid rgb(250,211,160);
+  border-radius: 3px;
+  padding: 3px;
+  background: rgba(255,255,255,0.4);
+}
+.tito-ticket-description {
+  font-size: 14px;
+}
+.tito-ticket {
+  clear: both;
+}
+.tito-ticket-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.tito-ticket.row {
+  padding: 0.5em 0;
+  border-bottom: 1px #fad3a0 solid;
+}
+
+.tito-ticket-price, .tito-ticket-quantity {
+  float: left;
+}
+.tito-ticket-quantity {
+  margin-left: 0.7em;
+}
+.tito-badge-link {
+  display: none;
+}
+.tito-submit-wrapper {
+  margin-top: 1em;
+  clear: both;
+}
+.tito-submit {
+  box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+  background-color: #2185d0;
+  color: #fff;
+  margin: 0 .25em 0 0;
+  padding: .78571429rem 1.5rem;
+  border-radius: .28571429rem;
+  border: 0;
+}
+
+.tito-ticket-quantity-field.tito-checkbox {
+  border: 0;
+  box-shadow: none;
+}
+
+.tito-ticket-donation-field {
+  border: 1px #ccc solid;
+  border-radius: 4px;
+  padding: 3px;
+  width: 70px;
+}
+
+.tito-discount-code {
+  display: none;
+}
+
+
+#map {
+  height: 320px;
+}
+
+
+
+.inverted a {
+  color: white;
+  text-decoration: underline;
+}
+.inverted a:hover {
+  color: ;
+}
+
+
+
+.social-media-icons a {
+  color: #CC510B;
+}
+.social-media-icons a:hover {
+  color: #e07131;
+}
+
+
+.hidden.menu {
+  display: none;
+}
+
+.masthead.segment {
+  padding: 1em 0em;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+  margin-top: 1em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+}
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+.masthead .event-header {
+  padding-bottom: 6em;
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0em;
+}
+.ui.vertical.stripe.nopadding {
+  padding: 0;
+}
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+  margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+  padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.footer.segment {
+  padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+  .masthead.segment {
+    min-height: 350px;
+  }
+  .masthead h1.ui.header {
+    font-size: 2em;
+    margin-top: 1.5em;
+  }
+  .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+}
+
+.keynote-speakers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.speaker {
+  text-align: center;
+  margin: 0 6px;
+  width: 25%;
+}
+.speaker img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.ui.vertical.stripe .speaker p.name {
+  font-size: 22px;
+}
+.ui.vertical.stripe .speaker p.role {
+  font-size: 14px;
+}
+
