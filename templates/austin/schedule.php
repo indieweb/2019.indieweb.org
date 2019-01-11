@@ -35,7 +35,6 @@
     </div>
     <div class="details">
       <ul>
-          <li>TBD</li>
 <!--        <li><span class="time">9:00</span> Doors open</li>-->
 <!--        <li><span class="time">10:00</span> <a href="https://indieweb.org/2018/Baltimore/Introductions">Introductions &amp; Personal Site Demos</a></li>-->
 <!--        <li><span class="time">10:45</span> IndieWeb Building Blocks</li>-->
@@ -49,7 +48,7 @@
   </div>
   <div class="day">
     <div class="header red-bkg">
-      Sunday, January 24<br>
+      Sunday, February 24<br>
       <span class="featured">Create, Hack, Demo!</span>
     </div>
     <div class="summary">
@@ -57,7 +56,6 @@
     </div>
     <div class="details">
       <ul>
-          <li>TBD</li>
 <!--        <li><span class="time">9:00</span> Doors open, badges, coffee, and breakfast!</li>-->
 <!--        <li><span class="time">9:30</span> Day 2 kickoff &amp; project intros</li>-->
 <!--        <li><span class="time">10:00</span> Start creating!</li>-->

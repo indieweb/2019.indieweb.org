@@ -26,7 +26,7 @@ $summary = 'IndieWebCamp Austin 2019 is a gathering for independent web creators
   <script src="/assets/jquery-2.2.0.min.js"></script>
   <script src="/semantic/semantic.min.js"></script>
   <script src="/assets/leaflet/leaflet.js"></script>
-<!--  <script src='https://js.tito.io/v1' async></script>-->
+  <script src='https://js.tito.io/v1' async></script>
 
   <meta property="og:url" content="<?= $url ?>">
   <meta property="og:type" content="website">
@@ -114,8 +114,8 @@ $summary = 'IndieWebCamp Austin 2019 is a gathering for independent web creators
 
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
-      <h3 class="ui header">Registration TBA</h3>
-<!--      <tito-widget event="indiewebcamp/baltimore-2018"><a href="https://ti.to/indiewebcamp/baltimore-2018">Get Tickets</a></tito-widget>-->
+      <h3 class="ui header">Register</h3>
+      <tito-widget event="indiewebcamp/austin-2019"><a href="https://ti.to/indiewebcamp/austin-2019">Get Tickets</a></tito-widget>
 
     </div>
   </div>
