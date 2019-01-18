@@ -32,7 +32,6 @@ $summary = 'IndieWebCamp Austin 2019 is a gathering for independent web creators
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?= $title ?> - <?= $date ?> - <?= $city ?>">
   <meta property="og:description" content="<?= htmlspecialchars($summary) ?>">
-  <meta property="og:image" content="https://2017.indieweb.org/assets/2014-indieweb-movement.jpg">
 
   <script>
   $(document)
