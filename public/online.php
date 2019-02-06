@@ -1,11 +1,11 @@
 <?php
-$event = 'austin';
-$title = 'IndieWebCamp Austin';
-$date = 'Feb 23-24, 2019';
+$event = 'online';
+$title = 'IndieWebCamp Online';
+$date = 'Mar 9-10, 2019';
 $year = 2019;
-$city = 'Austin, Texas';
-$url = 'https://2019.indieweb.org/austin';
-$summary = 'IndieWebCamp Austin 2019 is a gathering for independent web creators of all kinds, from graphic artists, to designers, UX engineers, coders, hackers, to share ideas, actively work on creating for their own personal websites, and build upon each others creations.';
+$city = 'Online';
+$url = 'https://2019.indieweb.org/online';
+$summary = 'IndieWebCamp Online 2019 is a gathering for independent web creators of all kinds, from graphic artists, to designers, UX engineers, coders, hackers, to share ideas, actively work on creating for their own personal websites, and build upon each others creations.';
 include(dirname(__FILE__).'/../lib/rsvps.php');
 ?>
 <!DOCTYPE html>
@@ -114,7 +114,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Register</h3>
-      <tito-widget event="indiewebcamp/austin-2019"><a href="https://ti.to/indiewebcamp/austin-2019">Get Tickets</a></tito-widget>
+      <tito-widget event="indiewebcamp/indiewebcamp-online-2019"><a href="https://ti.to/indiewebcamp/indiewebcamp-online-2019">Get Tickets</a></tito-widget>
 
     </div>
   </div>
@@ -128,10 +128,10 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
         <?php include('../templates/show-rsvps.php'); ?>
 
-      <h3 class="ui header">Tickets</h3>
-
-      <p>The people below registered for a ticket through the registration system.</p>
-      <?php include('../templates/show-tito-tickets.php'); ?>
+<!--      <h3 class="ui header">Tickets</h3>-->
+<!---->
+<!--      <p>The people below registered for a ticket through the registration system.</p>-->
+        <?php //include('../templates/show-tito-tickets.php'); ?>
 
     </div>
   </div>
@@ -159,10 +159,10 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
     </div>
   </div>
 
-
-  <div class="ui vertical stripe segment nopadding" style="border-bottom: 0;" id="location">
-    <div id="map"></div>
-  </div>
+<!--No map needed for online-->
+<!--  <div class="ui vertical stripe segment nopadding" style="border-bottom: 0;" id="location">-->
+<!--    <div id="map"></div>-->
+<!--  </div>-->
 
 
   <!--
@@ -196,29 +196,6 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
   </div>
 </div>
 
-<script>
-var map = L.map('map', {
-  scrollWheelZoom: false,
-  center: [30.2688801,-97.7427528],
-  zoom: 13
-});
-
-var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
-});
-map.addLayer(layer);
-
-var marker = L.marker([30.2688801,-97.7427528]).addTo(map);
-marker.bindPopup("<b>Capital Factory</b><br>701 Brazos St.<br>Austin, Texas, 78701.").openPopup();
-
-// var marker2 = L.marker([45.526159, -122.675330]).addTo(map);
-// marker2.bindPopup("<b>Pints</b><br>412 NW 5th Ave.<br>Portland, Oregon");
-
-// $(function(){
-//   $(".popup").popup();
-// });
-
-</script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
