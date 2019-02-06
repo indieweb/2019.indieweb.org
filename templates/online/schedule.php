@@ -6,7 +6,6 @@
 <div class="schedule-grid">
   <div class="day">
     <div class="header gold-bkg">
-        Friday, March 8<br/>
         <span class="featured">Pre-Camp Help</span>
     </div>
     <div class="summary">
@@ -27,7 +26,7 @@
   </div>
   <div class="day">
     <div class="header orange-bkg">
-      Saturday, March 9<br>
+      Day One: Friday, March 8 - Saturday, March 9<br>
       <span class="featured">Learn, Share, Discuss!</span>
     </div>
     <div class="summary">
@@ -35,18 +34,16 @@
     </div>
     <div class="details">
       <ul>
-        <li><span class="time">16:00 UTC</span> Hangout Time</li>
-        <li><span class="time"><a href="https://timee.io/20190309T1700?d=120&ln=https:%2F%2Findieweb.org%2F2019%2FOnline&tl=IWC+Online+2019+Day+1+Intros">17:00 UTC</a></span> Introductions &amp; Personal Site Demos</li>
-        <li><span class="time">17:45 UTC</span> IndieWeb Building Blocks</li>
-        <li><span class="time">18:30 UTC</span> Final Session Proposals &amp; Scheduling</a></li>
-
-        <li><span class="time">19:00 UTC</span> <a href="https://indieweb.org/2019/Online/Sessions">Sessions Start</a> (45min)</li>
+        <li><span class="time"><a href="https://timee.io/20190308T1900?d=45&tl=Introductions+and+Personal+Site+Demos">19:00 UTC <strong>March 8</strong></a></span> Introductions &amp; Personal Site Demos</li>
+        <li><span class="time"><a href="https://timee.io/20190308T1900?d=45&tl=IndieWeb+Building+Blocks">19:45 UTC</a></span> IndieWeb Building Blocks</li>
+        <li><span class="time"><a href="https://timee.io/20190308T1900?d=45&tl=Final+Session+Proposals+%26+Planning">20:30 UTC</a></span> Final Session Proposals &amp; Scheduling</a></li>
+        <li><span class="time"><a href="https://timee.io/20190309T0200?d=1080&tl=Sessions">21:00 UTC <strong>March 8</strong> to 20:00 UTC <strong>March 9</strong></span> <a href="https://indieweb.org/2019/Online/Sessions">Sessions</a> (45min)</li>
       </ul>
     </div>    
   </div>
   <div class="day">
     <div class="header red-bkg">
-      Sunday, March 10<br>
+      Day Two: Saturday, March 9 - Sunday, March 10<br>
       <span class="featured">Create, Hack, Demo!</span>
     </div>
     <div class="summary">
@@ -54,20 +51,9 @@
     </div>
     <div class="details">
       <ul>
-          <li>Coming Soon</li>
-<!--          <li><span class="time">16:00 UTC</span> Hangout Time</li>-->
-<!--          <li><span class="time"><a href="https://timee.io/20190209T1700?d=45&ln=https:%2F%2Findieweb.org%2F2019%2FOnline&tl=IWC+Online+Day+2+Intro">17:00 UTC</a></span> Day 2 Intro</li>-->
-<!---->
-<!--          <li><span class="time">15:00 (PST and CET)</span> <a href="https://indieweb.org/2019/Online/Demos">Demos</a></li>-->
-<!--          <em>(There will be two demo times, one in Pacific Standard Time and one in Central European Time. You are welcome to join either of those two demo times)</em>-->
-
-<!--        <li><span class="time">9:00</span> Doors open, badges, coffee, and breakfast!</li>-->
-<!--        <li><span class="time">9:30</span> Day 2 kickoff &amp; project intros</li>-->
-<!--        <li><span class="time">10:00</span> Start creating!</li>-->
-<!--        <li><span class="time">12:00</span> Group photo &amp; lunch</li>-->
-<!--        <li><span class="time">13:00</span> Creating sessions continue</li>-->
-<!--        <li><span class="time">16:00</span> <a href="https://indieweb.org/2018/Baltimore/Demos">Demos</a></li>-->
-<!--        <li><span class="time">17:15</span> <span class="featured">Camp closed!</span></li>-->
+        <li><span class="time"><a href="https://timee.io/20190309T0200?d=1080&tl=Session+Conclusion+%26+Projects+Kickoff">20:00 UTC <strong>March 9</strong></a></span> Sessions Conclusion &amp; Project Kickoff</li>
+        <li><span class="time">21:00 UTC <strong>March 9</strong> to 20:00 UTC <strong>March 10</strong></span> Projects Time.<br><em>Collaboration Rooms will be available throughout the Projects Time</em></li>
+        <li><span class="time"><a href="https://timee.io/20190310T2000?d=60&tl=Projects+Conclusion+%2F+Demos">20:00 UTC <strong>March 10</strong></a></span> Projects Conclusion &amp; <a href="https://indieweb.org/2019/Online/Demos">Demos</a></li>
       </ul>
     </div>
   </div>
