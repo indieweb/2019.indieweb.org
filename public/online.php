@@ -1,7 +1,7 @@
 <?php
 $event = 'online';
 $title = 'IndieWebCamp Online';
-$date = 'Mar 9-10, 2019';
+$date = 'Mar 8-10, 2019';
 $year = 2019;
 $city = 'Online';
 $url = 'https://2019.indieweb.org/online';
