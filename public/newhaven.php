@@ -1,5 +1,5 @@
 <?php
-$event = 'austin';
+$event = 'newhaven';
 $title = 'IndieWebCamp New Haven';
 $date = 'Mar 30-31, 2019';
 $year = 2019;
