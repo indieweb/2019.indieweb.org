@@ -197,14 +197,14 @@ $summary = 'IndieWebCamp New Haven 2019 is a gathering for independent web creat
 <script>
 var map = L.map('map', {
   scrollWheelZoom: false,
-  center: [41.3326, 72.9475],
+  center: [41.3326, -72.9475],
   zoom: 13
 });
 var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
 });
 map.addLayer(layer);
-var marker = L.marker([41.3326, 72.9475]).addTo(map);
+var marker = L.marker([41.3326, -72.9475]).addTo(map);
 marker.bindPopup("<b>Southern Connecticut State University</b><br>501 Crescent Avenue.<br>New Haven, CT 06117.").openPopup();
 // var marker2 = L.marker([41.3326, 72.9475]).addTo(map);
 // marker2.bindPopup("<b>Pints</b><br>412 NW 5th Ave.<br>Portland, Oregon");
