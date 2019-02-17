@@ -11,7 +11,13 @@
     <span class="logo">
       <a href="https://reviewtalentfeedback.com"><img src="https://reviewtalentfeedback.com/img/logo_ReVIEWTalentFeedbackSystem.png" style="width: 130px;"></a>
     </span>
-    <span class="description"><a href="reviewtalentfeedback.com">ReView Talent Feedbback System</a> improves the capacity of employees by focusing on the feedback delivered by supervisors.</span>
+    <span class="description"><a href="https://reviewtalentfeedback.com">ReView Talent Feedback System</a> improves the capacity of employees by focusing on the feedback delivered by supervisors.</span>
+  </li>
+  <li>
+    <span class="logo">
+      <a href="https://micro.blog/"><img src="https://help.micro.blog/assets/images/icons/web/icon.svg" style="width: 90px;"></a>
+    </span>
+    <span class="description"><a href="https://micro.blog/">Micro.blog</a> is a short-form blogging platform and social network that is independent and ad-free.</span>
   </li>
 </ul>
 
