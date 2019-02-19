@@ -35,14 +35,13 @@
     </div>
     <div class="details">
       <ul>
-<!--        <li><span class="time">9:00</span> Doors open</li>-->
-<!--        <li><span class="time">10:00</span> <a href="https://indieweb.org/2018/Baltimore/Introductions">Introductions &amp; Personal Site Demos</a></li>-->
-<!--        <li><span class="time">10:45</span> IndieWeb Building Blocks</li>-->
-<!--        <li><span class="time">11:30</span> <a href="https://indieweb.org/session_facilitating">Session Proposals &amp; Scheduling</a></li>-->
-<!--        <li><span class="time">12:00</span> Group photo &amp; Lunch</li>-->
-<!--        <li><span class="time">13:15 - 17:40</span> <a href="https://indieweb.org/2018/Baltimore/Sessions">Sessions</a> (45min)</li>-->
-<!--        <li><span class="time">17:45 - 18:00</span> Intro to Day 2</li>-->
-<!--        <li>Self-Organized Dinner</li>-->
+       <li><span class="time">9:00</span> Doors open, coffee, and breakfast!</li>
+       <li><span class="time">9:30</span> Personal site demos</li>
+       <li><span class="time">10:30</span> Short intro talks</li>
+       <li><span class="time">11:30</span> <a href="https://indieweb.org/session_facilitating">Session proposals</a></li>
+       <li><span class="time">12:00</span> Group photo &amp; lunch</li>
+       <li><span class="time">13:00</span> Sessions (45min)</li>
+       <li><span class="time">16:45</span> Day 2 preview</li>
       </ul>
     </div>    
   </div>
@@ -56,13 +55,13 @@
     </div>
     <div class="details">
       <ul>
-<!--        <li><span class="time">9:00</span> Doors open, badges, coffee, and breakfast!</li>-->
-<!--        <li><span class="time">9:30</span> Day 2 kickoff &amp; project intros</li>-->
-<!--        <li><span class="time">10:00</span> Start creating!</li>-->
-<!--        <li><span class="time">12:00</span> Group photo &amp; lunch</li>-->
-<!--        <li><span class="time">13:00</span> Creating sessions continue</li>-->
-<!--        <li><span class="time">16:00</span> <a href="https://indieweb.org/2018/Baltimore/Demos">Demos</a></li>-->
-<!--        <li><span class="time">17:15</span> <span class="featured">Camp closed!</span></li>-->
+       <li><span class="time">9:00</span> Doors open, coffee, and breakfast!</li>
+       <li><span class="time">9:30</span> Day 2 kickoff, session planning</li>
+       <li><span class="time">10:30</span> Creating sessions</li>
+       <li><span class="time">12:00</span> Group photo &amp; lunch</li>
+       <li><span class="time">13:00</span> Sessions continue</li>
+       <li><span class="time">16:00</span> Demos</li>
+       <li><span class="time">17:00</span> Camp closed!</li>
       </ul>
     </div>
   </div>
