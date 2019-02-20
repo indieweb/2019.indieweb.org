@@ -59,7 +59,7 @@ $summary = 'IndieWeb upcoming events.';
   ;
   </script>
 </head>
-<body class="h-event">
+<body>
 
 <!--
 <div style="display: block; position: fixed; top: 0; height: 40px; width: 100%; background: #E63630; text-align: center; z-index: 1000; color: white;">
