@@ -112,7 +112,7 @@ $summary = 'IndieWebCamp New Haven 2019 is a gathering for independent web creat
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Registration TBA</h3>
-      <tito-widget event="indiewebcamp/baltimore-2018"><a href="https://ti.to/indiewebcamp/baltimore-2018">Get Tickets</a></tito-widget>
+      <tito-widget event="indiewebcamp/new-haven"><a href="https://ti.to/indiewebcamp/new-haven">Get Tickets</a></tito-widget>
 
     </div>
   </div>
@@ -124,12 +124,12 @@ $summary = 'IndieWebCamp New Haven 2019 is a gathering for independent web creat
 
       <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below!</p>
 
-        <?php //include('../templates/show-rsvps.php'); ?>
+        <?php include('../templates/show-rsvps.php'); ?>
 
       <h3 class="ui header">Tickets</h3>
 
       <p>The people below registered for a ticket through the registration system.</p>
-      <?php //include('../templates/show-tito-tickets.php'); ?>
+      <?php include('../templates/show-tito-tickets.php'); ?>
 
     </div>
   </div>
