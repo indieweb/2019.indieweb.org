@@ -54,7 +54,6 @@ foreach($registrations->data as $reg) {
             $show = ($answer == 'Yes, show me on the guest list' ? 'yes' : 'no');
         }
       }
-
       echo "======\n";
       echo $name . "\n";
       echo $timestamp . "\n";
