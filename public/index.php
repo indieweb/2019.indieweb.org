@@ -88,7 +88,7 @@ $summary = 'IndieWeb upcoming events.';
       <h3 class="ui header"><a href="https://indieweb.org/2019/Berlin">IndieWebCamp Berlin</a></h3>
       <p>Mozilla Berlin<br />
       Berlin, Germany<br />
-      March 30-31, 2019</p>
+      May 4-5, 2019</p>
 
       <h3 class="ui header"><a href="https://indieweb.org/2019/Düsseldorf">IndieWebCamp Düsseldorf</a></h3>
       <p>Düsseldorf, Germany<br />
