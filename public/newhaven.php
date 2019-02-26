@@ -26,7 +26,7 @@ $summary = 'IndieWebCamp New Haven 2019 is a gathering for independent web creat
   <script src="/assets/jquery-2.2.0.min.js"></script>
   <script src="/semantic/semantic.min.js"></script>
   <script src="/assets/leaflet/leaflet.js"></script>
-  <script src='https://js.tito.io/v1' async></script>
+<!--  <script src='https://js.tito.io/v1' async></script>-->
 
   <meta property="og:url" content="<?= $url ?>">
   <meta property="og:type" content="website">
@@ -112,27 +112,27 @@ $summary = 'IndieWebCamp New Haven 2019 is a gathering for independent web creat
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Registration TBA</h3>
-      <tito-widget event="indiewebcamp/new-haven"><a href="https://ti.to/indiewebcamp/new-haven">Get Tickets</a></tito-widget>
+<!--      <tito-widget event="indiewebcamp/baltimore-2018"><a href="https://ti.to/indiewebcamp/baltimore-2018">Get Tickets</a></tito-widget>-->
 
     </div>
   </div>
 
 
-  <div class="ui vertical stripe segment" id="rsvps">
-    <div class="ui text container">
-      <h3 class="ui header">Indie RSVPs</h3>
+<!--  <div class="ui vertical stripe segment" id="rsvps">-->
+<!--    <div class="ui text container">-->
+<!--      <h3 class="ui header">Indie RSVPs</h3>-->
 
-      <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below!</p>
+<!--      <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below!</p>-->
 
-        <?php include('../templates/show-rsvps.php'); ?>
+        <?php //include('../templates/show-rsvps.php'); ?>
 
-      <h3 class="ui header">Tickets</h3>
+<!--      <h3 class="ui header">Tickets</h3>-->
 
-      <p>The people below registered for a ticket through the registration system.</p>
-      <?php include('../templates/show-tito-tickets.php'); ?>
+<!--      <p>The people below registered for a ticket through the registration system.</p>-->
+      <?php //include('../templates/show-tito-tickets.php'); ?>
 
-    </div>
-  </div>
+<!--    </div>-->
+<!--  </div>-->
 
 
 
