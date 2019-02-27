@@ -6,7 +6,7 @@ $year = 2019;
 $city = 'New Haven, CT';
 $url = 'https://2019.indieweb.org/newhaven';
 $summary = 'IndieWebCamp New Haven 2019 is a gathering for independent web creators of all kinds, from graphic artists, to designers, UX engineers, coders, hackers, to share ideas, actively work on creating for their own personal websites, and build upon each others creations.';
-//include(dirname(__FILE__).'/../lib/rsvps.php');
+include(dirname(__FILE__).'/../lib/rsvps.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -124,12 +124,12 @@ $summary = 'IndieWebCamp New Haven 2019 is a gathering for independent web creat
 
   <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below!</p>-->
 
-        <?php //include('../templates/show-rsvps.php'); ?>
+        <?php include('../templates/show-rsvps.php'); ?>
 
   <h3 class="ui header">Tickets</h3>
 
      <p>The people below registered for a ticket through the registration system.</p>
-      <?php //include('../templates/show-tito-tickets.php'); ?>
+      <?php include('../templates/show-tito-tickets.php'); ?>
 
   </div>
  </div>
