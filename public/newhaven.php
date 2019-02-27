@@ -122,7 +122,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
  <div class="ui text container">
 <h3 class="ui header">Indie RSVPs</h3>
 
-  <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below!</p>-->
+  <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below!</p>
 
         <?php include('../templates/show-rsvps.php'); ?>
 
