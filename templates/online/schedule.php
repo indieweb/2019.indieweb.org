@@ -37,7 +37,7 @@
         <li><span class="time"><a href="https://timee.io/20190308T1900?d=45&tl=Introductions+and+Personal+Site+Demos">19:00 UTC <strong>March 8</strong></a></span> Introductions &amp; Personal Site Demos</li>
         <li><span class="time"><a href="https://timee.io/20190308T1945?d=45&tl=IndieWeb+Building+Blocks">19:45 UTC</a></span> IndieWeb Building Blocks</li>
         <li><span class="time"><a href="https://timee.io/20190308T2030?d=30&tl=Final+Session+Proposals+%26+Planning">20:30 UTC</a></span> Final Session Proposals &amp; Scheduling</a></li>
-        <li><span class="time"><a href="https://timee.io/20190389T2100?d=1380&tl=Sessions">21:00 UTC <strong>March 8</strong> to 20:00 UTC <strong>March 9</strong></span> <a href="https://indieweb.org/2019/Online/Sessions">Sessions</a> (45min)</li>
+        <li><span class="time"><a href="https://timee.io/20190308T2100?d=1380&tl=Sessions">21:00 UTC <strong>March 8</strong> to 20:00 UTC <strong>March 9</strong></span> <a href="https://indieweb.org/2019/Online/Sessions">Sessions</a> (45min)</li>
       </ul>
     </div>    
   </div>
