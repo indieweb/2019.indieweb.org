@@ -35,9 +35,9 @@
     <div class="details">
       <ul>
         <li><span class="time"><a href="https://timee.io/20190308T1900?d=45&tl=Introductions+and+Personal+Site+Demos">19:00 UTC <strong>March 8</strong></a></span> Introductions &amp; Personal Site Demos</li>
-        <li><span class="time"><a href="https://timee.io/20190308T1900?d=45&tl=IndieWeb+Building+Blocks">19:45 UTC</a></span> IndieWeb Building Blocks</li>
-        <li><span class="time"><a href="https://timee.io/20190308T1900?d=45&tl=Final+Session+Proposals+%26+Planning">20:30 UTC</a></span> Final Session Proposals &amp; Scheduling</a></li>
-        <li><span class="time"><a href="https://timee.io/20190309T0200?d=1080&tl=Sessions">21:00 UTC <strong>March 8</strong> to 20:00 UTC <strong>March 9</strong></span> <a href="https://indieweb.org/2019/Online/Sessions">Sessions</a> (45min)</li>
+        <li><span class="time"><a href="https://timee.io/20190308T1945?d=45&tl=IndieWeb+Building+Blocks">19:45 UTC</a></span> IndieWeb Building Blocks</li>
+        <li><span class="time"><a href="https://timee.io/20190308T2030?d=30&tl=Final+Session+Proposals+%26+Planning">20:30 UTC</a></span> Final Session Proposals &amp; Scheduling</a></li>
+        <li><span class="time"><a href="https://timee.io/20190308T2100?d=1380&tl=Sessions">21:00 UTC <strong>March 8</strong> to 20:00 UTC <strong>March 9</strong></span> <a href="https://indieweb.org/2019/Online/Sessions">Sessions</a> (45min)</li>
       </ul>
     </div>    
   </div>
@@ -51,7 +51,7 @@
     </div>
     <div class="details">
       <ul>
-        <li><span class="time"><a href="https://timee.io/20190309T0200?d=1080&tl=Session+Conclusion+%26+Projects+Kickoff">20:00 UTC <strong>March 9</strong></a></span> Sessions Conclusion &amp; Project Kickoff</li>
+        <li><span class="time"><a href="https://timee.io/20190309T2000?d=60&tl=Session+Conclusion+%26+Projects+Kickoff">20:00 UTC <strong>March 9</strong></a></span> Sessions Conclusion &amp; Project Kickoff</li>
         <li><span class="time">21:00 UTC <strong>March 9</strong> to 20:00 UTC <strong>March 10</strong></span> Projects Time.<br><em>Collaboration Rooms will be available throughout the Projects Time</em></li>
         <li><span class="time"><a href="https://timee.io/20190310T2000?d=60&tl=Projects+Conclusion+%2F+Demos">20:00 UTC <strong>March 10</strong></a></span> Projects Conclusion &amp; <a href="https://indieweb.org/2019/Online/Demos">Demos</a></li>
       </ul>
