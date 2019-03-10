@@ -32,42 +32,17 @@ $summary = 'IndieWeb upcoming events.';
   <meta property="og:title" content="<?= $title ?> - <?= $date ?>">
   <meta property="og:description" content="<?= htmlspecialchars($summary) ?>">
   <meta property="og:image" content="https://2018.indieweb.org/assets/2014-indieweb-movement.jpg">
-
-  <script>
-  $(document)
-    .ready(function() {
-
-      // fix menu when passed
-      $('.masthead')
-        .visibility({
-          once: false,
-          onBottomPassed: function() {
-            $('.fixed.menu').transition('fade in');
-          },
-          onBottomPassedReverse: function() {
-            $('.fixed.menu').transition('fade out');
-          }
-        })
-      ;
-
-      // create sidebar and attach to menu open
-      $('.ui.sidebar')
-        .sidebar('attach events', '.toc.item')
-      ;
-
-    })
-  ;
-  </script>
 </head>
 <body>
 
-<!--
-<div style="display: block; position: fixed; top: 0; height: 40px; width: 100%; background: #E63630; text-align: center; z-index: 1000; color: white;">
-  <div style="padding: 10px;">
-    New: <a href="https://aaronparecki.com/2018/06/23/5/indieweb-summit" style="color: white; font-style: bold; text-decoration: underline;">Final details for IndieWeb Summit!</a>
+  <div class="ui vertical stripe segment orange-bkg">
+    <div class="ui text container">
+      <div style="font-size: 2em; text-align: center; color: white" class="carrot-white">
+        IndieWebCamps in 2019
+      </div>
+    </div>
   </div>
-</div>
--->
+
 
 <!-- Page Contents -->
 <div class="pusher">
@@ -101,6 +76,10 @@ $summary = 'IndieWeb upcoming events.';
       <h3 class="ui header"><a href="https://indieweb.org/2019">IndieWeb Summit</a></h3>
       <p>Portland, OR<br />
       June 29-30, 2019</p>
+
+      <div style="margin-top: 100px;">
+        <p>See more related events at <a href="https://indieweb.org/events">indieweb.org/events</a></p>
+      </div>
 
     </div>
   </div>
