@@ -73,7 +73,7 @@ $summary = 'IndieWeb upcoming events.';
       <p>Utrecht, Netherlands<br />
       May 18-19, 2019</p>
 
-      <h3 class="ui header"><a href="https://indieweb.org/2019">IndieWeb Summit</a></h3>
+      <h3 class="ui header"><a href="/summit">IndieWeb Summit</a></h3>
       <p>Portland, OR<br />
       June 29-30, 2019</p>
 
