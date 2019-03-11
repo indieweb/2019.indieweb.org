@@ -46,7 +46,7 @@ foreach($folders as $f) {
 
 $event = false;
 foreach($events as $e) {
-  $path = ($e == 'summit' ? '/' : '/'.$e);
+  $path = '/'.$e;
   if($path == $targetURLParts['path']) {
     $event = $e;
   }
