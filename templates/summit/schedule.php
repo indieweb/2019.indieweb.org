@@ -1,12 +1,12 @@
 <p>
-  <i class="calendar icon"></i> <time class="dt-start" datetime="2019-06-29">June 29</time>-<time class="dt-end" datetime="2018-06-30">30</time>, 2019<br>
+  <i class="calendar icon"></i> <time class="dt-start" datetime="2019-06-29">June 29</time>-<time class="dt-end" datetime="2019-06-30">30</time>, 2019<br>
   <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Mozilla</span>, <span class="p-street-address">1120 NW Couch St #320</span>, <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span>
 </p>
 
 <div class="schedule-grid">
   <div class="day h-event">
     <div class="header gold-bkg">
-      <time class="dt-start" datetime="2018-06-28T17:30:00-0700">Friday, June 28</time><br>
+      <time class="dt-start" datetime="2019-06-28T17:30:00-0700">Friday, June 28</time><br>
       <span class="featured p-name">Pre-Summit Meetup</span>
     </div>
     <div class="summary p-description">
