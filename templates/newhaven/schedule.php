@@ -1,9 +1,10 @@
 <p>
   <i class="calendar icon"></i> <time class="dt-start" datetime="2018-03-30">March 30</time>-<time class="dt-end" datetime="2018-03-31">31</time>, 2019<br>
   <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Davis Hall, Southern Coneccticut State University</span>, <span class="p-street-address">501 Crescent Street</span>, <span class="p-locality">New Haven</span>, <span class="p-region">CT</span></span>
+  <a href="https://indieweb.org/2019/New_Haven#Schedule">Schedule</a>
 </p>
 
-<div class="schedule-grid">
+<!--<div class="schedule-grid">
 <!--  <div class="day">-->
 <!--    <div class="header gold-bkg">-->
 <!--        Friday, February 22nd<br/>-->
@@ -25,7 +26,7 @@
 <!--        <p style="font-size:0.8em; margin-top: 1em;">The Baltimore Improv Group (BIG) is a non-profit for improvisational theatre shows and instruction. Co-organizer Marty will be appearing in the evening's 9PM show.</p>-->
 <!--    </div>-->
 <!--  </div>-->
-  <div class="day">
+  <!--<div class="day">
     <div class="header orange-bkg">
       Saturday, March 30th<br>
       <span class="featured">Learn, Share, Discuss!</span>
@@ -43,7 +44,7 @@
 <!--        <li><span class="time">12:00</span> Group photo &amp; Lunch</li>-->
 <!--        <li><span class="time">13:15 - 17:40</span> <a href="https://indieweb.org/2018/Baltimore/Sessions">Sessions</a> (45min)</li>-->
 <!--        <li><span class="time">17:45 - 18:00</span> Intro to Day 2</li>-->
-<!--        <li>Self-Organized Dinner</li>-->
+<!--        <li>Self-Organized Dinner</li>
       </ul>
     </div>    
   </div>
@@ -64,13 +65,13 @@
 <!--        <li><span class="time">12:00</span> Group photo &amp; lunch</li>-->
 <!--        <li><span class="time">13:00</span> Creating sessions continue</li>-->
 <!--        <li><span class="time">16:00</span> <a href="https://indieweb.org/2018/Baltimore/Demos">Demos</a></li>-->
-<!--        <li><span class="time">17:15</span> <span class="featured">Camp closed!</span></li>-->
+<!--        <li><span class="time">17:15</span> <span class="featured">Camp closed!</span></li>
       </ul>
     </div>
   </div>
 </div>
 
-<br>
+<br>-->
 
 <!--
 
