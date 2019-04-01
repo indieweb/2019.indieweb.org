@@ -32,7 +32,6 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
   <meta property="og:type" content="website">
   <meta property="og:title" content="<?= $title ?> - <?= $date ?> - <?= $city ?>">
   <meta property="og:description" content="<?= htmlspecialchars($summary) ?>">
-  <!-- <meta property="og:image" content="https://2019.indieweb.org/assets/featured-image.jpg"> -->
 
   <script>
   $(document)
