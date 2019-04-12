@@ -1,6 +1,6 @@
 <p>
-  <i class="calendar icon"></i> <time class="dt-start" datetime="2018-02-23">February 23</time>-<time class="dt-end" datetime="2018-02-24">24</time>, 2019<br>
-  <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Capital Factory</span>, <span class="p-street-address">701 Brazos St</span>, <span class="p-locality">Austin</span>, <span class="p-region">Texas</span></span>
+  <i class="calendar icon"></i> <time class="dt-start" datetime="2019-05-04">May 4</time>-<time class="dt-end" datetime="2019-05-05">5</time>, 2019<br>
+  <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Mozilla Berlin</span>, <span class="p-street-address">GSG-Hof Schlesische Straße, Building 3, 3rd floor, Schlesische Straße 27</span>, <span class="p-locality">Berlin</span>, <span class="p-region">Germany</span></span>
 </p>
 
 <div class="schedule-grid">
