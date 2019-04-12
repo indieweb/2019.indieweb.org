@@ -1,6 +1,6 @@
 <p>
   <i class="calendar icon"></i> <time class="dt-start" datetime="2019-05-04">May 4</time>-<time class="dt-end" datetime="2019-05-05">5</time>, 2019<br>
-  <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Mozilla Berlin</span>, <span class="p-street-address">GSG-Hof Schlesische Straße, Building 3, 3rd floor, Schlesische Straße 27</span>, <span class="p-locality">Berlin</span>, <span class="p-region">Germany</span></span>
+  <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Mozilla Berlin</span>, <span class="p-street-address">GSG-Hof Schlesische Straße, Building 3, 3rd floor, Schlesische Straße 27</span>, <span class="p-locality">Berlin</span>, <span class="p-country-name">Germany</span></span>
 </p>
 
 <div class="schedule-grid">
