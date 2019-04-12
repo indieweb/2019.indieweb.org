@@ -59,7 +59,7 @@ $summary = 'IndieWeb upcoming events.';
       <p>Southern Connecticut State University, Davis Hall<br />
       March 30-31, 2019</p>
 
-      <h3 class="ui header"><a href="https://indieweb.org/2019/Berlin">IndieWebCamp Berlin</a></h3>
+      <h3 class="ui header"><a href="/berlin">IndieWebCamp Berlin</a></h3>
       <p>Mozilla Berlin<br />
       Berlin, Germany<br />
       May 4-5, 2019</p>
