@@ -71,3 +71,7 @@
 </div>
 
 <br>
+
+<p>Schedule is subject to change. View the <a href="https://indieweb.org/2019/Berlin/Schedule">full schedule grid</a> on the IndieWeb wiki for the latest updates.</p>
+
+<br>
