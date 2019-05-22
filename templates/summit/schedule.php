@@ -96,3 +96,22 @@
 <br>
 <p>Schedule is subject to change. View the <a href="https://indieweb.org/2019/Schedule">full schedule grid</a> on the IndieWeb wiki for the latest updates.</p>
 
+<br>
+
+<h3>Related Events</h3>
+
+<p>There's a lot happening the week leading up to IndieWeb Summit! Here are some related events. These events have their own registration process so please register on their respective websites!</p>
+
+<h4>Tuesday, June 25: Donut.js</h4>
+<p><a href="https://donutjs.club/">Donut.js</a> is a monthly meet-up in Portland, OR with a handful of wonderful talks on tech, creativity, community, and the places they come together.</p>
+<p><a href="https://donutjs.club/">Register Here</a></p>
+
+<h4>Wednesday, June 26: Homebrew Website Club</h4>
+<p><a href="https://indieweb.org/events/2019-06-26-homebrew-website-club#Portland">Homebrew Website Club</a> is a meetup of people passionate about or interested in creating, improving, building, designing their own website.</p>
+<p><a href="https://indieweb.org/events/2019-06-26-homebrew-website-club#Portland">RSVP Here</a></p>
+
+<h4>Thursday, June 27: Hack the Dot</h4>
+<p><a href="https://www.eventbrite.com/e/hack-the-dot-alchemy-code-lab-tickets-62233446915">Hack the Dot</a> is a two-hour hackathon where coding school students, junior developers, experienced developers, non developers, marketers, designers, and those with little or no computer programming skill come together to build ideas around a single domain name.</p>
+<p><a href="https://www.eventbrite.com/e/hack-the-dot-alchemy-code-lab-tickets-62233446915">Register Here</a></p>
+
+
