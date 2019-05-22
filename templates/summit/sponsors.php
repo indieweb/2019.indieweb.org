@@ -23,19 +23,19 @@
     <span class="description"><a href="https://developer.okta.com">Okta</a> provides an API that seamlessly handles user registration and multi-factor authentication for your applications.</span>
   </li>
 
+  <li>
+    <span class="logo">
+      <a href="https://name.com/"><img src="/assets/namelogo.png" style="width: 140px;"></a>
+    </span>
+    <span class="description"><a href="https://indieweb.org/Name.com">Name.com</a> provides domain names, web hosting, and super easy websites. Unicorns and rainbows come standard with our customer support.</span>
+  </li>
+
   <!--
   <li>
     <span class="logo">
       <a href="https://godaddy.com/"><img src="https://indieweb.org/sponsor-logos/full/godaddy-logo.png" style="width: 140px;"></a>
     </span>
     <span class="description"><a href="https://indieweb.org/GoDaddy">GoDaddy</a> is a domain registrar and hosting company that supports the IndieWeb principles.</span>
-  </li>
-
-  <li>
-    <span class="logo">
-      <a href="https://name.com/"><img src="/assets/namelogo.png" style="width: 140px;"></a>
-    </span>
-    <span class="description"><a href="https://indieweb.org/Name.com">Name.com</a> provides domain names, web hosting, and super easy websites. Unicorns and rainbows come standard with our customer support.</span>
   </li>
 
   <li>
