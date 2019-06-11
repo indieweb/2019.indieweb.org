@@ -16,11 +16,8 @@
       <ul>
         <li><span class="time">17:30</span> <span class="featured">Pre-Summit Meetup!</span></li>
       </ul>
-      <!--
       <span class="p-location h-card"><a class="p-name u-url" href="http://www.pinestreetpdx.com/">Pine Street Market</a><br><span class="p-street-address">126 SW 2nd St.</span></span>
       <p style="font-size:0.8em; margin-top: 1em;">Pine Street Market is an indoor food hall with a wide variety of food and drink options.</p>
-      -->
-      Location TBD
     </div>
   </div>
   <div class="day">
