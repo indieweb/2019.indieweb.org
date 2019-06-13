@@ -19,15 +19,15 @@
           $websites[] = parse_url($ticket->website, PHP_URL_HOST);
         }
       ?>
-      <div class="rsvp">
+      <div class="rsvp h-card">
         <div class="profile-photo">
           <? if($ticket->website): ?><a href="<?= $ticket->website ?>"><? endif; ?>
-            <img src="<?= gravatar($ticket->email) ?>" width="48" class="photo">
+            <img src="<?= gravatar($ticket->email) ?>" width="48" height="48" class="photo u-photo">
           <? if($ticket->website): ?></a><? endif; ?>
         </div>
         <div class="profile-info">
           <div>
-            <? if($ticket->website): ?><a href="<?= $ticket->website ?>"><? endif; ?>
+            <? if($ticket->website): ?><a href="<?= $ticket->website ?>" class="p-name u-url"><? endif; ?>
               <?= $ticket->name ?>
             <? if($ticket->website): ?></a><? endif; ?>
           </div>    
