@@ -11,12 +11,12 @@ foreach($rsvps as $rsvp):
   if(parse_url($rsvp['source'], PHP_URL_HOST) == 'brid-gy.appspot.com')
     continue;
   ?>
-  <div class="rsvp">
+  <div class="rsvp h-card">
     <div class="profile-photo">
       <?php if($rsvp['author_photo']): ?>
         <?php if($rsvp['data']['author']['url']): ?>
           <a href="<?= $rsvp['data']['author']['url'] ?>">
-            <img src="/img.php?event=<?= $event ?>&img=<?= $rsvp['author_photo'] ?>" width="48" class="photo">
+            <img src="/img.php?event=<?= $event ?>&img=<?= $rsvp['author_photo'] ?>" width="48" height="48" class="photo u-photo">
           </a>
         <?php endif; ?>
       <?php else: ?>
@@ -26,7 +26,7 @@ foreach($rsvps as $rsvp):
     <div class="profile-info">
       <div>
         <?php if($rsvp['data']['author']['url']): ?>
-          <a href="<?= $rsvp['data']['author']['url'] ?>">
+          <a href="<?= $rsvp['data']['author']['url'] ?>" class="p-name u-url">
            <?= $rsvp['data']['author']['name'] ?: '' ?>
           </a>
         <?php endif; ?>

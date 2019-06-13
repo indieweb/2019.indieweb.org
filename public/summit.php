@@ -139,7 +139,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
   </div>
 
 
-  <div class="ui vertical stripe segment" id="rsvps">
+  <div class="ui vertical stripe segment h-feed" id="rsvps">
     <div class="ui text container">
       <h3 class="ui header">Indie RSVPs</h3>
 
