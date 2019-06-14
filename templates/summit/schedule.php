@@ -31,11 +31,11 @@
     <div class="details">
       <ul>
         <li><span class="time">09:00</span> Doors open, badges, coffee, and breakfast!</li>
-        <li><span class="time">10:00</span> <span class="featured"><a href="https://indieweb.org/2019/Schedule#Tuesday">Keynotes</a></span></li>
+        <li><span class="time">10:00</span> <span class="featured"><a href="https://indieweb.org/2019/Schedule#Keynotes">Keynotes</a></span></li>
         <li><span class="time">11:00</span> Lightning Intros &amp; Personal Site Demos</li>
-        <li><span class="time">12:00</span> Group photo &amp; Lunch</li>
+        <li><span class="time">12:00</span> Group photo &amp; decentralized lunch</li>
         <li><span class="time">13:30</span> Session Proposals &amp; Scheduling</li>
-        <li><span class="time">14:00</span> Sessions (45min)</li>
+        <li><span class="time">14:00</span> Sessions (45 minute slots)</li>
         <li><span class="time">17:30 - 17:45</span> Day 1 closing session</li>
       </ul>
     </div>
@@ -54,7 +54,7 @@
         <li><span class="time">09:30</span> Day 2 session scheduling</li>
         <li><span class="time">10:00</span> <span class="featured">IndieWeb Creating:</span> <br>IndieWeb 101, IndieWebifying your WordPress, Dev intro to indieweb building blocks</li>
         <li><span class="time">11:00</span> Start creating!</li>
-        <li><span class="time">12:00</span> Catered lunch</li>
+        <li><span class="time">12:00</span> Group photo &amp; catered lunch</li>
         <li><span class="time">13:00</span> Creating sessions continue</li>
         <li><span class="time">16:00</span> Demos</li>
         <li><span class="time">17:30</span> <span class="featured">Closing Keynote</span></li>
