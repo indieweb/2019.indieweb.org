@@ -141,16 +141,15 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
   <div class="ui vertical stripe segment h-feed" id="rsvps">
     <div class="ui text container">
+      <h3 class="ui header">Registrations</h3>
+
+      <?php include('../templates/show-tito-tickets.php'); ?>
+
       <h3 class="ui header">Indie RSVPs</h3>
 
-      <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below!</p>
+      <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below! Please make sure to still register for a ticket above though!</p>
 
       <?php include('../templates/show-rsvps.php'); ?>
-
-      <h3 class="ui header">Tickets</h3>
-
-      <p>Below are registrations through the registration system.</p>
-      <?php include('../templates/show-tito-tickets.php'); ?>
 
     </div>
   </div>
