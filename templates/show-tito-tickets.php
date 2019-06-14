@@ -22,7 +22,7 @@
       <div class="rsvp h-card">
         <div class="profile-photo">
           <? if($ticket->website): ?><a href="<?= $ticket->website ?>"><? endif; ?>
-            <img src="<?= gravatar($ticket->email) ?>" width="48" height="48" class="photo u-photo">
+            <img src="<?= gravatar($ticket->email, $event) ?>" width="48" height="48" class="photo u-photo">
           <? if($ticket->website): ?></a><? endif; ?>
         </div>
         <div class="profile-info">
