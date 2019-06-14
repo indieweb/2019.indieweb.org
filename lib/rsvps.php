@@ -1,6 +1,5 @@
 <?php
 function gravatar($email, $event) {
-  return 'http://localhost:9009/img.php?event='.$event.'&img='.md5(strtolower(trim($email))).'.jpg';
   return 'https://2019.indieweb.org/img.php?event='.$event.'&img='.md5(strtolower(trim($email))).'.jpg';
 }
 
