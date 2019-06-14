@@ -32,5 +32,7 @@ $filename = dirname(__FILE__).'/../data/'.$event.'/'.$folder.'/photo.'.$ext;
 
 if(file_exists($filename))
   readfile($filename);
-else
-  header('HTTP/1.1 404 Not Found');
+else {
+  header('Content-type: image/png');
+  readfile(__DIR__.'/assets/no-photo.png');
+}
