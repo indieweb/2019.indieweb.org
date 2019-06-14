@@ -83,10 +83,11 @@ if(!array_key_exists('rsvp', $source)) {
   error("Your post doesn't have an 'rsvp' property");
 }
 
+// Store the response data to disk so that it's rendered on the event page
+$folder = dirname(__FILE__).'/../data/'.$event.'/'.md5($sourceURL);
+
 if(strtolower($source['rsvp']) == 'yes') {
 
-  // Store the response data to disk so that it's rendered on the event page
-  $folder = dirname(__FILE__).'/../data/'.$event.'/'.md5($sourceURL);
   @mkdir($folder);
 
   if($source['author']['photo']) {
@@ -126,5 +127,10 @@ if(strtolower($source['rsvp']) == 'yes') {
 
   echo "Thanks! Your RSVP is listed on the event page now!\n";
 } else {
+
+  if(file_exists($folder . '/post.json')) {
+    unlink($folder . '/post.json');
+  }
+
   echo "Thanks! Your RSVP was received, but you won't be listed on the event page because your RSVP was not \"yes\"\n";
 }
