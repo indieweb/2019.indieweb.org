@@ -76,6 +76,14 @@ $summary = 'IndieWeb upcoming events.';
       <p>Portland, OR<br />
       June 29-30, 2019</p>
 
+      <h3 class="ui header"><a href="https://indieweb.org/2019/Oxford">IndieWebCamp Oxford</a></h3>
+      <p>Oxford, England<br />
+      September 28, 2019</p>
+
+      <h3 class="ui header"><a href="https://indieweb.org/2019/Brighton">IndieWebCamp Brighton</a></h3>
+      <p>Brighton, England<br />
+      October 19-20, 2019</p>
+
       <div style="margin-top: 100px;">
         <p>See more related events at <a href="https://indieweb.org/events">indieweb.org/events</a></p>
       </div>
