@@ -1,6 +1,7 @@
 <?php
-function gravatar($email) {
-  return 'https://www.gravatar.com/avatar/'.md5(strtolower(trim($email))).'.jpg?d='.urlencode('https://2019.indieweb.org/assets/no-photo.png');
+function gravatar($email, $event) {
+  return 'http://localhost:9009/img.php?event='.$event.'&img='.md5(strtolower(trim($email))).'.jpg';
+  return 'https://2019.indieweb.org/img.php?event='.$event.'&img='.md5(strtolower(trim($email))).'.jpg';
 }
 
 function loadRSVPs($event) {

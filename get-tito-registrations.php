@@ -16,7 +16,7 @@ function get_tito($url) {
   ]);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
   $response = curl_exec($ch);
-  return json_decode($response);
+  return json_decode($response, true);
 }
 
 function normalize_url($url) {
@@ -28,26 +28,23 @@ function normalize_url($url) {
 
 $registrations = get_tito($config->registrations);
 
+file_put_contents(dirname(__FILE__).'/data/'.$event.'/tito.json', json_encode($registrations, JSON_PRETTY_PRINT));
+
+
 $ticketData = [];
 
-foreach($registrations->data as $reg) {
-  if(property_exists($reg, 'relationships')
-    && property_exists($reg->relationships, 'tickets')
-    && property_exists($reg->relationships->tickets, 'links')
-    && property_exists($reg->relationships->tickets->links, 'related')
-  ) {
-    $ticket = get_tito($reg->relationships->tickets->links->related);
-    if($ticket && is_array($ticket->data) && array_key_exists(0, $ticket->data)) {
-      $ticket = $ticket->data[0];
-      $name = $ticket->attributes->name;
-      $timestamp = $reg->attributes->{'completed-at'};
-      $email = $reg->attributes->{'email'};
+foreach($registrations['data'] as $reg) {
+  if(isset($reg['relationships']['tickets']['links']['related'])) {
+    $ticket = get_tito($reg['relationships']['tickets']['links']['related']);
+    if($ticket && isset($ticket['data'][0])) {
+      $ticket = $ticket['data'][0];
+      $name = $ticket['attributes']['name'];
+      $timestamp = $reg['attributes']['completed-at'];
+      $email = $reg['attributes']['email'];
       $website = false;
       $show = false;
-      if(property_exists($ticket, 'attributes')
-        && property_exists($ticket->attributes, 'answers')
-      ) {
-        foreach($ticket->attributes->answers as $question=>$answer) {
+      if(isset($ticket['attributes']['answers']) && is_array($ticket['attributes']['answers'])) {
+        foreach($ticket['attributes']['answers'] as $question=>$answer) {
           if($question == 'your-personal-website')
             $website = normalize_url($answer);
           if($question == 'would-you-like-to-be-shown-on-the-public')
@@ -61,6 +58,26 @@ foreach($registrations->data as $reg) {
       echo $website . "\n";
       echo $email . "\n";
       echo $show . "\n";
+      $hash = md5(strtolower(trim($email)));
+      echo $hash . "\n";
+
+      $dir = __DIR__.'/data/'.$event.'/'.$hash;
+      $fn = $dir.'/photo.jpg';
+      if(!file_exists($fn)) {
+        // Try to download the profile photo from Gravatar
+        $ch = curl_init('https://www.gravatar.com/avatar/'.$hash.'.jpg?d=404');
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_FAILONERROR, true);
+        $imgdata = curl_exec($ch);
+        
+        if($imgdata) {
+          echo "found gravatar\n";
+          @mkdir($dir, 0755);
+          file_put_contents($fn, $imgdata);
+        } else {
+          echo "no gravatar\n";
+        }
+      }
 
       $ticketData[] = [
         'name' => $name,
@@ -75,5 +92,5 @@ foreach($registrations->data as $reg) {
 
 }
 
-file_put_contents(dirname(__FILE__).'/data/'.$event.'/tickets.json', json_encode($ticketData));
+file_put_contents(dirname(__FILE__).'/data/'.$event.'/tickets.json', json_encode($ticketData, JSON_PRETTY_PRINT));
 
