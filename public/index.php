@@ -45,44 +45,70 @@ $summary = 'IndieWeb upcoming events.';
 
 <!-- Page Contents -->
 <div class="pusher">
-  <div class="ui vertical stripe segment" id="events">
+  <div class="ui vertical stripe segment h-feed" id="events">
     <div class="ui text container">
-      <h3 class="ui header"><a href="/austin">IndieWebCamp Austin</a></h3>
-      <p>Capital Factory<br />
-      Austin, TX<br />
-      February 23-24, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="/austin">IndieWebCamp Austin</a></h3>
+      <p><span class="p-location location">Capital Factory<br />
+        Austin, TX</span><br />
+        <time class="dt-start dtstart" datetime="2019-02-23">February 23</time>-<time class="dt-end dtend" datetime="2019-02-24">24, 2019</time>
+      </p></div>
 
-      <h3 class="ui header"><a href="/online">IndieWebCamp Online</a></h3>
-      <p>March 9-10, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="/online">IndieWebCamp Online</a></h3>
+      <p><time class="dt-start dtstart" datetime="2019-03-09">March 9</time>-<time class="dt-end dtend" datetime="2019-03-10">10, 2019</time>
+      </p></div>
 
-      <h3 class="ui header"><a href="/newhaven">IndieWebCamp New Haven</a></h3>
-      <p>Southern Connecticut State University, Davis Hall<br />
-      March 30-31, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="/newhaven">IndieWebCamp New Haven</a></h3>
+        <p><span class="p-location location">Southern Connecticut State University, Davis Hall</span><br />
+          <time class="dt-start dtstart" datetime="2019-03-30">March 30</time>-<time class="dt-end dtend" datetime="2019-03-31">31, 2019</time>
+        </p></div>
 
-      <h3 class="ui header"><a href="/berlin">IndieWebCamp Berlin</a></h3>
-      <p>Mozilla Berlin<br />
-      Berlin, Germany<br />
-      May 4-5, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="/berlin">IndieWebCamp Berlin</a></h3>
+      <p><span class="p-location location">Mozilla Berlin<br />
+        Berlin, Germany</span><br />
+        <time class="dt-start dtstart" datetime="2019-05-04">May 4</time>-<time class="dt-end dtend" datetime="2019-05-05">5, 2019</time>
+      </p></div>
 
-      <h3 class="ui header"><a href="https://indieweb.org/2019/Düsseldorf">IndieWebCamp Düsseldorf</a></h3>
-      <p>Düsseldorf, Germany<br />
-      May 11-12, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="https://indieweb.org/2019/Düsseldorf">IndieWebCamp Düsseldorf</a></h3>
+        <p><span class="p-location location">Düsseldorf, Germany</span><br />
+        <time class="dt-start dtstart" datetime="2019-05-11">May 11</time>-<time class="dt-end dtend" datetime="2019-05-12">12, 2019</time>
+      </p></div>
 
-      <h3 class="ui header"><a href="https://indieweb.org/2019/Utrecht">IndieWebCamp Utrecht</a></h3>
-      <p>Utrecht, Netherlands<br />
-      May 18-19, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="https://indieweb.org/2019/Utrecht">IndieWebCamp Utrecht</a></h3>
+      <p><span class="p-location location">Utrecht, Netherlands</span><br />
+        <time class="dt-start dtstart" datetime="2019-05-18">May 18</time>-<time class="dt-end dtend" datetime="2019-05-19">19, 2019</time>
+      </p></div>
 
-      <h3 class="ui header"><a href="/summit">IndieWeb Summit</a></h3>
-      <p>Portland, OR<br />
-      June 29-30, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="/summit">IndieWeb Summit</a></h3>
+      <p><span class="p-location location">Portland, Oregon</span><br />
+        <time class="dt-start dtstart" datetime="2019-06-29">June 29</time>-<time class="dt-end dtend" datetime="2019-06-30">30, 2019</time>
+      </p></div>
 
-      <h3 class="ui header"><a href="https://indieweb.org/2019/Oxford">IndieWebCamp Oxford</a></h3>
-      <p>Oxford, England<br />
-      September 28, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="https://indieweb.org/2019/Oxford">IndieWebCamp Oxford</a></h3>
+      <p><span class="p-location location">Oxford, England</span><br />
+        <time class="dt-start dtstart" datetime="2019-09-28">September 28, 2019</time></p></div>
 
-      <h3 class="ui header"><a href="https://indieweb.org/2019/Brighton">IndieWebCamp Brighton</a></h3>
-      <p>Brighton, England<br />
-      October 19-20, 2019</p>
+      <div class="h-event vevent">
+      <h3 class="ui header p-name summary">
+        <a class="u-url url" href="https://indieweb.org/2019/Brighton">IndieWebCamp Brighton</a></h3>
+      <p><span class="p-location location">Brighton, England</span><br />
+        <time class="dt-start dtstart" datetime="2019-10-19">October 19</time>-<time class="dt-end dtend" datetime="2019-10-20">20, 2019</time>
+      </p></div>
 
       <div style="margin-top: 100px;">
         <p>See more related events at <a href="https://indieweb.org/events">indieweb.org/events</a></p>
