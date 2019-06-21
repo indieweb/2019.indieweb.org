@@ -75,7 +75,7 @@
   <div class="speaker">
     <a href="https://tantek.com/"><img src="/images/tantek.jpg"></a>
     <p class="name">Tantek<br> Çelik</p>
-    <p class="role">State of the IndieWebn</p>
+    <p class="role">State of the IndieWeb</p>
   </div>
 
   <div class="speaker">
