@@ -201,7 +201,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
   <div class="ui vertical stripe segment" id="code-of-conduct">
     <div class="ui text container">
       <h3 class="ui header">Code of Conduct</h3>
-      <p>All participants are expected to follow the <a href="https://indieweb.org/code-of-conduct">IndieWeb Code of Conduct</a>. We take this seriously and, by attending Donut.js, you agree to do the same.</p>
+      <p>All participants are expected to follow the <a href="https://indieweb.org/code-of-conduct">IndieWeb Code of Conduct</a>. We take this seriously and, by attending IndieWeb Summit, you agree to do the same.</p>
       <p>Need help? You can reach the IndieWeb Code of Conduct responders through the email below. Responders will be monitoring this email address throughout the event.</p>
       <ul>
         <li><a href="mailto:conduct@2019.indieweb.org">conduct@2019.indieweb.org</a></li>
