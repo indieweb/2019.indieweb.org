@@ -63,52 +63,91 @@
   </div>
 </div>
 
-<!--
-<h3 class="ui header">Guest Keynotes</h3>
+<br>
+<p>Schedule is subject to change. View the <a href="https://indieweb.org/2019/Schedule">full schedule grid</a> on the IndieWeb wiki for the latest updates.</p>
+
+
+
+<h3 class="ui header">Keynotes</h3>
 
 <div class="keynote-speakers">
 
   <div class="speaker">
-    <a href="http://macgenie.micro.blog/"><img src="https://www.gravatar.com/avatar/c88aed8390a453c5b03f5ffb4d9c8651.jpg"></a>
-    <p class="name">Jean<br> MacDonald</p>
-    <p class="role">Community Manager, <br>Micro.blog</p>
+    <a href="https://tantek.com/"><img src="/images/tantek.jpg"></a>
+    <p class="name">Tantek<br> Çelik</p>
+    <p class="role">State of the IndieWeb</p>
   </div>
 
   <div class="speaker">
-    <a href="http://manton.org/"><img src="http://manton.org/images/2016/header_me.png"></a>
-    <p class="name">Manton<br> Reece</p>
-    <p class="role">Founder, <br>Micro.blog</p>
+    <a href="https://kitt.hodsden.org/"><img src="/images/kitt-hodsden.jpg"></a>
+    <p class="name">Kitt<br> Hodsden</p>
+    <p class="role">On Contractions &amp; Expansions</p>
   </div>
 
   <div class="speaker">
-    <a href="http://williamhertling.com"><img src="https://pbs.twimg.com/profile_images/1877570126/Hertling2012_headshot_1280_200x200.jpg"></a>
-    <p class="name">William<br> Hertling</p>
-    <p class="role">Author, <br>Kill Process, Avogadro Corp</p>
+    <a href="https://aaronparecki.com"><img src="/images/aaronpk.jpg"></a>
+    <p class="name">Aaron<br> Parecki</p>
+    <p class="role">Cutting Edge IndieWeb</p>
+  </div>
+
+  <div class="speaker">
+    <a href="https://martymcgui.re/"><img src="/images/schmarty.jpg"></a>
+    <p class="name">Marty<br> McGuire</p>
+    <p class="role">Own Your Mobile Experience</p>
+  </div>
+
+  <div class="speaker">
+    <a href="https://jacky.wtf/"><img src="/images/jacky.jpg"></a>
+    <p class="name">Jacky<br> Alciné</p>
+    <p class="role">Making the IndieWeb for All</p>
   </div>
 
 </div>
--->
 
 
-<br>
-<p>Schedule is subject to change. View the <a href="https://indieweb.org/2019/Schedule">full schedule grid</a> on the IndieWeb wiki for the latest updates.</p>
+
 
 <br>
 
 <h3>Related Events</h3>
 
-<p>There's a lot happening the week leading up to IndieWeb Summit! Here are some related events. These events have their own registration process so please register on their respective websites!</p>
+<p>There's a lot happening the week of IndieWeb Summit! Here are some related events. These events have their own registration process and community guidelines so please register on their respective websites!</p>
 
-<h4>Tuesday, June 25: Donut.js</h4>
-<p><a href="https://donutjs.club/">Donut.js</a> is a monthly meet-up in Portland, OR with a handful of wonderful talks on tech, creativity, community, and the places they come together.</p>
-<p><a href="https://donutjs.club/">Register Here</a></p>
+<div class="related-event">
+  <h4>Tuesday, June 25: Donut.js</h4>
+  <p><b><a href="https://donutjs.club/">Donut.js</a></b> is a monthly meet-up in Portland, OR with a handful of wonderful talks on tech, creativity, community, and the places they come together.</p>
+  <p><a href="https://donutjs.club/" class="register-btn">Register Here</a> ($10 or free)</p>
+</div>
 
-<h4>Wednesday, June 26: Homebrew Website Club</h4>
-<p><a href="https://indieweb.org/events/2019-06-26-homebrew-website-club#Portland">Homebrew Website Club</a> is a meetup of people passionate about or interested in creating, improving, building, designing their own website.</p>
-<p><a href="https://indieweb.org/events/2019-06-26-homebrew-website-club#Portland">RSVP Here</a></p>
+<div class="related-event">
+  <h4>Wednesday, June 26: Homebrew Website Club</h4>
+  <p><b><a href="https://indieweb.org/events/2019-06-26-homebrew-website-club#Portland">Homebrew Website Club</a></b> is a meetup of people passionate about or interested in creating, improving, building, designing their own website.</p>
+  <p><a href="https://indieweb.org/events/2019-06-26-homebrew-website-club#Portland" class="register-btn">RSVP Here</a> (free, or just show up!)</p>
+</div>
 
-<h4>Thursday, June 27: Hack the Dot</h4>
-<p><a href="https://www.eventbrite.com/e/hack-the-dot-alchemy-code-lab-tickets-62233446915">Hack the Dot</a> is a two-hour hackathon where coding school students, junior developers, experienced developers, non developers, marketers, designers, and those with little or no computer programming skill come together to build ideas around a single domain name.</p>
-<p><a href="https://www.eventbrite.com/e/hack-the-dot-alchemy-code-lab-tickets-62233446915">Register Here</a></p>
+<div class="related-event">
+  <h4>Thursday, June 27: Hack the Dot</h4>
+  <p><b><a href="https://www.eventbrite.com/e/hack-the-dot-alchemy-code-lab-tickets-62233446915">Hack the Dot</a></b> is a two-hour hackathon where coding school students, junior developers, experienced developers, non developers, marketers, designers, and those with little or no computer programming skill come together to build ideas around a single domain name.</p>
+  <p><a href="https://www.eventbrite.com/e/hack-the-dot-alchemy-code-lab-tickets-62233446915" class="register-btn">Register Here</a> (free)</p>
+</div>
 
+<div class="related-event">
+  <h4>Saturday, June 29: Dat Night</h4>
+  <p><b><a href="https://datnight.org/">Dat Night</a></b> is for people excited
+  about the future of the internet, whether it's decentralized,
+  distributed, peer to peer, federated, or all of the above. Come out
+  for snacks, drinks, and friends!</p>
+  <p><a href="https://datnight.org/" class="register-btn">Register Here</a> ($5 or free)</p>
+</div>
 
+<style>
+.related-event {
+  margin-top: 3em;
+}
+.register-btn {
+  background: #4183c4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+</style>
