@@ -320,7 +320,7 @@
   font-size: 1.3em;
 }
 .ui.vertical.stripe .button + h3,
-.ui.vertical.stripe p + h3 {
+#events h3 {
   margin-top: 3em;
 }
 .ui.vertical.stripe .floated.image {
