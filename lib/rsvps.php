@@ -4,7 +4,7 @@ function gravatar($email, $event) {
 }
 
 function loadRSVPs($event) {
-  $files = glob(dirname(__FILE__).'/../data/'.$event.'/*/*.json');
+  $files = glob(dirname(__FILE__).'/../data/'.$event.'/*/post.json');
   $rsvps = [];
   foreach($files as $file) {
     $data = json_decode(file_get_contents($file), true);
