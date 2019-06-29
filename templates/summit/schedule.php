@@ -85,9 +85,9 @@
   </div>
 
   <div class="speaker">
-    <a href="https://aaronparecki.com"><img src="/images/aaronpk.jpg"></a>
-    <p class="name">Aaron<br> Parecki</p>
-    <p class="role">Cutting Edge IndieWeb</p>
+    <a href="https://mjordan.codes/"><img src="/images/mjordan.jpg"></a>
+    <p class="name">mJordan<br>&nbsp;</p>
+    <p class="role">Changing My Domain</p>
   </div>
 
   <div class="speaker">
