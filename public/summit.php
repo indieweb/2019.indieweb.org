@@ -128,16 +128,14 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
   </div>
 
 
-  <div class="ui vertical stripe segment" id="register">
+
+  <div class="ui vertical stripe segment" id="schedule">
     <div class="ui text container">
-      <h3 class="ui header">Register</h3>
-
-      <tito-widget event="indiewebcamp/summit-2019"><a href="http://tickets.indieweb.org/indiewebcamp/summit-2019">Get Tickets</a></tito-widget>
-
-      <p style="font-size: 0.9em; margin-top: 0.5em;">Have a discount code? <a href="https://ti.to/indiewebcamp/summit-2019">Enter it here!</a></p>
-
+      <h3 class="ui header">Schedule</h3>
+      <?php include('../templates/'.$event.'/schedule.php'); ?>
     </div>
   </div>
+
 
   <div class="ui vertical stripe segment" id="code-of-conduct">
     <div class="ui text container">
@@ -170,14 +168,6 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
 
 
-  <div class="ui vertical stripe segment" id="schedule">
-    <div class="ui text container">
-      <h3 class="ui header">Schedule</h3>
-      <?php include('../templates/'.$event.'/schedule.php'); ?>
-    </div>
-  </div>
-
-
   <div class="ui vertical stripe segment orange-bkg" id="social-media-section">
     <div class="ui text container">
       <div style="font-size: 2em; text-align: center;" class="carrot-white">
@@ -196,6 +186,16 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
     <div id="map"></div>
   </div>
 
+    <div class="ui vertical stripe segment" id="register">
+    <div class="ui text container">
+      <h3 class="ui header">Register</h3>
+
+      <tito-widget event="indiewebcamp/summit-2019"><a href="http://tickets.indieweb.org/indiewebcamp/summit-2019">Get Tickets</a></tito-widget>
+
+      <p style="font-size: 0.9em; margin-top: 0.5em;">Have a discount code? <a href="https://ti.to/indiewebcamp/summit-2019">Enter it here!</a></p>
+
+    </div>
+  </div>
 
   <div class="ui vertical stripe segment" id="travel-assistance">
     <div class="ui text container">
