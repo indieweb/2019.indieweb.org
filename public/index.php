@@ -50,21 +50,21 @@ $summary = 'IndieWeb upcoming events.';
 
       <div class="h-event vevent">
         <h3 class="ui header p-name summary">
-          <a class="u-url url" href="/summit">IndieWeb Summit</a>
-        </h3>
-        <p>
-          <span class="p-location location">Portland, Oregon</span><br />
-          <time class="dt-start dtstart" datetime="2019-06-29">June 29</time>-<time class="dt-end dtend" datetime="2019-06-30">30, 2019</time>
-        </p>
-      </div>
-
-      <div class="h-event vevent">
-        <h3 class="ui header p-name summary">
           <a class="u-url url" href="https://indieweb.org/2019/Oxford">IndieWebCamp Oxford</a>
         </h3>
         <p>
           <span class="p-location location">Oxford, England</span><br />
           <time class="dt-start dtstart" datetime="2019-09-28">September 28, 2019</time>
+        </p>
+      </div>
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="/nyc">IndieWebCamp New York City</a>
+        </h3>
+        <p>
+          <span class="p-location location">New York City, New York</span><br />
+          <time class="dt-start dtstart" datetime="2019-10-05">October 5</time>-<time class="dt-end dtend" datetime="2019-10-06">6, 2019</time>
         </p>
       </div>
 
@@ -139,6 +139,16 @@ $summary = 'IndieWeb upcoming events.';
         <p>
           <span class="p-location location">Utrecht, Netherlands</span><br />
           <time class="dt-start dtstart" datetime="2019-05-18">May 18</time>-<time class="dt-end dtend" datetime="2019-05-19">19, 2019</time>
+        </p>
+      </div>
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="/summit">IndieWeb Summit</a>
+        </h3>
+        <p>
+          <span class="p-location location">Portland, Oregon</span><br />
+          <time class="dt-start dtstart" datetime="2019-06-29">June 29</time>-<time class="dt-end dtend" datetime="2019-06-30">30, 2019</time>
         </p>
       </div>
 
