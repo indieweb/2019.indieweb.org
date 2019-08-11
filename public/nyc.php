@@ -1,5 +1,5 @@
 <?php
-$event = 'summit';
+$event = 'nyc';
 $title = 'IndieWebCamp NYC';
 $date = 'October 5-6, 2019';
 $year = 2019;
@@ -229,7 +229,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 var map = L.map('map', {
   scrollWheelZoom: false,
   center: [40.71092, -74.00515],
-  zoom: 13
+  zoom: 17
 });
 
 var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {

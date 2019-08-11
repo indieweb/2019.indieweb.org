@@ -1,6 +1,5 @@
 <p>
   <i class="calendar icon"></i> <time class="dt-start" datetime="2019-10-05">October 5</time>-<time class="dt-end" datetime="2019-10-06">6</time>, 2019<br>
-  <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Pace University</span>, <span class="p-street-address">163 William St 2nd Floor</span>, <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span>
 </p>
 
 <div class="schedule-grid">
@@ -27,6 +26,7 @@
       Saturday, October 5<br>
       <span class="featured">Keynotes &amp; Discussions</span>
     </div>
+	<i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Siedenberg School, Pace University</span>, <span class="p-street-address">163 William St 2nd Floor</span>, <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span>
     <div class="summary">
       Day 1 starts with keynotes and demos, then BarCamp-style brainstorming and discussion sessions.
     </div>
@@ -47,6 +47,7 @@
       Sunday, October 6<br>
       <span class="featured">Create, Hack, Demo!</span>
     </div>
+	<i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Pace University</span>, <span class="p-street-address">1 Pace Plaza</span>, <span class="p-locality">New York City</span>, <span class="p-region">New York</span></span>
     <div class="summary">
       Day 2 is for making things on and for your personal site! Collaborate with others or work on your own to improve at least one thing on your personal site, no matter how small or how epic.
     </div>
