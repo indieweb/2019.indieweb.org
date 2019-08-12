@@ -50,6 +50,16 @@ $summary = 'IndieWeb upcoming events.';
 
       <div class="h-event vevent">
         <h3 class="ui header p-name summary">
+          <a class="u-url url" href="https://indieweb.org/2019/Amsterdam">IndieWebCamp Amsterdam</a>
+        </h3>
+        <p>
+          <span class="p-location location">Amsterdam, Netherlands</span><br />
+          <time class="dt-start dtstart" datetime="2019-09-28">September 28</time>-<time class="dt-end dtend" datetime="2019-09-29">29, 2019</time>
+        </p>
+      </div>
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
           <a class="u-url url" href="https://indieweb.org/2019/Oxford">IndieWebCamp Oxford</a>
         </h3>
         <p>
