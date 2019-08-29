@@ -64,6 +64,8 @@ foreach($registrations['data'] as $reg) {
               $website = normalize_url($answer);
             if($question == 'would-you-like-to-be-shown-on-the-public')
               $show = ($answer == 'Yes, show me on the guest list' ? 'yes' : 'no');
+            if($question == 'would-you-like-to-be-seen-on-the-public') // for nyc
+              $show = ($answer == 'Yes, show me on the guest list' ? 'yes' : 'no');
             if($question == 'event-attendance')
               $attendance = $answer;
           }
