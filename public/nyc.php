@@ -5,7 +5,7 @@ $date = 'October 5-6, 2019';
 $year = 2019;
 $city = 'New York City, NY';
 $url = 'https://2019.indieweb.org/nyc';
-$summary = 'IndieWebCamp NYC 2019 is a two-day maker event for creating and/or improving your personal website. All levels welcome! One of several 2019 IndieWebCamps and the seventh IndieWebCamp in NYC!';
+$summary = 'IndieWebCamp NYC is an all-levels creatives collaboration hosted by Pace University in Manhattan for two days of keynotes, brainstorming, creating, teaching, and helping gain more control over our data and lives online! One of several 2019 IndieWebCamps and the seventh IndieWebCamp in NYC!';
 include(dirname(__FILE__).'/../lib/rsvps.php');
 ?>
 <!DOCTYPE html>
