@@ -3,24 +3,22 @@
 </p>
 
 <div class="schedule-grid">
-  <!--
   <div class="day h-event">
     <div class="header gold-bkg">
-      <time class="dt-start" datetime="2019-06-28T17:30:00-0700">Friday, June 28</time><br>
-      <span class="featured p-name">Pre-Summit Meetup</span>
+      <time class="dt-start" datetime="2019-10-04T18:00:00-0700">Friday, October 4th</time><br>
+      <span class="featured p-name">Pre-Camp Meetup</span>
     </div>
     <div class="summary p-description">
-      The Pre-Summit Meetup is an informal social meetup for IndieWeb Summit participants to catch up and get to know each other before the summit.
+      The Pre-Camp Meetup is an informal social meetup for IndieWebCamp participants to catch up and get to know each other before the weekend.
     </div>
     <div class="details">
       <ul>
-        <li><span class="time">17:30</span> <span class="featured">Pre-Summit Meetup!</span></li>
+        <li><span class="time">18:00</span> <span class="featured">Pre-Camp Meetup!</span></li>
       </ul>
-      <span class="p-location h-card"><a class="p-name u-url" href="http://www.pinestreetpdx.com/">Pine Street Market</a><br><span class="p-street-address">126 SW 2nd St.</span></span>
-      <p style="font-size:0.8em; margin-top: 1em;">Pine Street Market is an indoor food hall with a wide variety of food and drink options.</p>
+      <span class="p-location h-card"><span class="p-name">Stone Street Restaurants</a><br><span class="p-street-address">Stone Street</span></span>
+      <p style="font-size:0.8em; margin-top: 1em;">Stone Street is an a narrow cobblestone street in the heart of the Financial District with tables and communal seating in the street, surrounded by a variety of food and drink options.</p>
     </div>
   </div>
-  -->
   <div class="day">
     <div class="header orange-bkg">
       Saturday, October 5<br>
@@ -32,13 +30,13 @@
     </div>
     <div class="details">
       <ul>
-        <li><span class="time">09:00</span> Doors open, badges, coffee, and breakfast!</li>
-        <li><span class="time">10:00</span> <span class="featured"><a href="https://indieweb.org/2019/NYC/Schedule#Keynotes">Keynotes</a></span></li>
-        <li><span class="time">11:00</span> Lightning Intros &amp; Personal Site Demos</li>
+        <li><span class="time">08:30</span> Doors open, badges, coffee, and breakfast!</li>
+        <li><span class="time">09:00</span> <span class="featured"><a href="https://indieweb.org/2019/NYC/Schedule#Keynotes">Keynotes</a></span></li>
+        <li><span class="time">10:00</span> Introductions &amp; Sesssion Planning</li>
+        <li><span class="time">11:00</span> Session 1</li>
         <li><span class="time">12:00</span> Group photo &amp; decentralized lunch</li>
-        <li><span class="time">13:30</span> Session Proposals &amp; Scheduling</li>
-        <li><span class="time">14:00</span> Sessions (45 minute slots)</li>
-        <li><span class="time">17:30 - 17:45</span> Day 1 closing session</li>
+        <li><span class="time">13:00</span> Sessions</li>
+        <li><span class="time">16:30</span> Intro to Day 2</li>
       </ul>
     </div>
   </div>
@@ -53,14 +51,12 @@
     </div>
     <div class="details">
       <ul>
-        <li><span class="time">09:00</span> Doors open, badges, coffee, and breakfast!</li>
-        <li><span class="time">09:30</span> Day 2 session scheduling</li>
-        <li><span class="time">10:00</span> <span class="featured">IndieWeb Creating:</span> <br>IndieWeb 101, IndieWebifying your WordPress, Dev intro to indieweb building blocks</li>
-        <li><span class="time">11:00</span> Start creating!</li>
-        <li><span class="time">12:00</span> Group photo &amp; catered lunch</li>
+        <li><span class="time">08:30</span> Doors open, badges, coffee, and breakfast!</li>
+        <li><span class="time">09:00</span> Day 2 kickoff</li>
+        <li><span class="time">12:00</span> Group photo &amp; lunch</li>
         <li><span class="time">13:00</span> Creating sessions continue</li>
-        <li><span class="time">16:00</span> Demos</li>
-        <li><span class="time">17:30</span> <span class="featured">Closing Keynote</span></li>
+        <li><span class="time">16:30</span> Demos</li>
+        <li><span class="time">17:15</span> Closing and Cleanup</li>
       </ul>
     </div>
   </div>
