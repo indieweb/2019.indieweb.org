@@ -38,7 +38,7 @@
        <li><span class="time">9:00</span> Organizer setup</li>
        <li><span class="time">9:30</span> Doors Open</li>
        <li><span class="time">10:00</span> Introduction</li>
-       <li><span class="time">10:45</span> Keynote</li>
+       <li><span class="time">10:15</span> Keynote</li>
        <li><span class="time">11:00</span> Intros and Demos</li>
        <li><span class="time">11:45</span> <a href="https://indieweb.org/session_facilitating">Session Planning</a></li>
        <li><span class="time">12:00</span> Group photo &amp; lunch break</li>
