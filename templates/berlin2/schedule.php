@@ -63,6 +63,7 @@
        <li><span class="time">9:30</span> Doors Open</li>
        <li><span class="time">9:30</span> Doors Open</li>
        <li><span class="time">9:30</span> Doors Open</li>
+       <li><span class="time">9:30</span> Doors Open</li>
        <li><span class="time">10:00</span> Day 2 kick-off</li>
        <li><span class="time">10:30</span> Hack sessions</li>
        <li><span class="time">12:45</span> Lunch</li>
