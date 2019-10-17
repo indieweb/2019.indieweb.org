@@ -1,9 +1,6 @@
 <?php
-$event = 'summit';
 $title = 'IndieWeb Events';
-$date = '2019';
 $year = 2019;
-$city = 'Portland, Oregon';
 $url = 'https://2019.indieweb.org/';
 $summary = 'IndieWeb upcoming events.';
 ?>
@@ -29,7 +26,7 @@ $summary = 'IndieWeb upcoming events.';
 
   <meta property="og:url" content="<?= $url ?>">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="<?= $title ?> - <?= $date ?>">
+  <meta property="og:title" content="<?= $title ?> - <?= $year ?>">
   <meta property="og:description" content="<?= htmlspecialchars($summary) ?>">
 </head>
 <body>
@@ -37,7 +34,7 @@ $summary = 'IndieWeb upcoming events.';
   <div class="ui vertical stripe segment orange-bkg">
     <div class="ui text container">
       <div style="font-size: 2em; text-align: center; color: white" class="carrot-white">
-        IndieWebCamps in 2019
+        IndieWebCamps in <?= $year ?>
       </div>
     </div>
   </div>
@@ -48,35 +45,6 @@ $summary = 'IndieWeb upcoming events.';
   <div class="ui vertical stripe segment h-feed" id="events">
     <div class="ui text container">
 
-      <div class="h-event vevent">
-        <h3 class="ui header p-name summary">
-          <a class="u-url url" href="https://indieweb.org/2019/Amsterdam">IndieWebCamp Amsterdam</a>
-        </h3>
-        <p>
-          <span class="p-location location">Amsterdam, Netherlands</span><br />
-          <time class="dt-start dtstart" datetime="2019-09-28">September 28</time>-<time class="dt-end dtend" datetime="2019-09-29">29, 2019</time>
-        </p>
-      </div>
-
-      <div class="h-event vevent">
-        <h3 class="ui header p-name summary">
-          <a class="u-url url" href="https://indieweb.org/2019/Oxford">IndieWebCamp Oxford</a>
-        </h3>
-        <p>
-          <span class="p-location location">Oxford, England</span><br />
-          <time class="dt-start dtstart" datetime="2019-09-28">September 28, 2019</time>
-        </p>
-      </div>
-
-      <div class="h-event vevent">
-        <h3 class="ui header p-name summary">
-          <a class="u-url url" href="/nyc">IndieWebCamp New York City</a>
-        </h3>
-        <p>
-          <span class="p-location location">New York City, New York</span><br />
-          <time class="dt-start dtstart" datetime="2019-10-05">October 5</time>-<time class="dt-end dtend" datetime="2019-10-06">6, 2019</time>
-        </p>
-      </div>
 
       <div class="h-event vevent">
         <h3 class="ui header p-name summary">
@@ -85,6 +53,17 @@ $summary = 'IndieWeb upcoming events.';
         <p>
           <span class="p-location location">Brighton, England</span><br />
           <time class="dt-start dtstart" datetime="2019-10-19">October 19</time>-<time class="dt-end dtend" datetime="2019-10-20">20, 2019</time>
+        </p>
+      </div>
+
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="https://2019.indieweb.org/berlin2">IndieWebCamp Berlin 2</a>
+        </h3>
+        <p>
+          <span class="p-location location">Berlin, Germany</span><br />
+          <time class="dt-start dtstart" datetime="2019-11-23">November 23</time>-<time class="dt-end dtend" datetime="2019-11-24">24, 2019</time>
         </p>
       </div>
 
@@ -159,6 +138,36 @@ $summary = 'IndieWeb upcoming events.';
         <p>
           <span class="p-location location">Portland, Oregon</span><br />
           <time class="dt-start dtstart" datetime="2019-06-29">June 29</time>-<time class="dt-end dtend" datetime="2019-06-30">30, 2019</time>
+        </p>
+      </div>
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="https://indieweb.org/2019/Amsterdam">IndieWebCamp Amsterdam</a>
+        </h3>
+        <p>
+          <span class="p-location location">Amsterdam, Netherlands</span><br />
+          <time class="dt-start dtstart" datetime="2019-09-28">September 28</time>-<time class="dt-end dtend" datetime="2019-09-29">29, 2019</time>
+        </p>
+      </div>
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="https://indieweb.org/2019/Oxford">IndieWebCamp Oxford</a>
+        </h3>
+        <p>
+          <span class="p-location location">Oxford, England</span><br />
+          <time class="dt-start dtstart" datetime="2019-09-28">September 28, 2019</time>
+        </p>
+      </div>
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="/nyc">IndieWebCamp New York City</a>
+        </h3>
+        <p>
+          <span class="p-location location">New York City, New York</span><br />
+          <time class="dt-start dtstart" datetime="2019-10-05">October 5</time>-<time class="dt-end dtend" datetime="2019-10-06">6, 2019</time>
         </p>
       </div>
 
