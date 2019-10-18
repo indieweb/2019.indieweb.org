@@ -137,7 +137,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
   <div class="ui vertical stripe segment" id="rsvps">
     <div class="ui text container">
-      <?php include('../templates/summit/tito-registrations.php'); ?>
+      <?php include('../templates/show-tito-tickets.php'); ?>
 
       <h3 class="ui header">Indie RSVPs</h3>
 

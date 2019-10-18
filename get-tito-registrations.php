@@ -28,6 +28,10 @@ function normalize_url($url) {
 
 $registrations = get_tito($config->registrations);
 
+if(!file_exists(dirname(__FILE__).'/data/'.$event)) {
+  mkdir(dirname(__FILE__).'/data/'.$event, 0755);
+}
+
 file_put_contents(dirname(__FILE__).'/data/'.$event.'/tito.json', json_encode($registrations, JSON_PRETTY_PRINT+JSON_UNESCAPED_SLASHES));
 
 
