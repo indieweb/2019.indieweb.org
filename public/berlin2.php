@@ -119,19 +119,31 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
     </div>
   </div>
 
+  <div class="ui vertical stripe segment" id="code-of-conduct">
+    <div class="ui text container">
+      <h3 class="ui header">Code of Conduct</h3>
+      <p>All participants are expected to follow the
+        <a href="https://indieweb.org/code-of-conduct">IndieWeb Code of Conduct</a>
+        and the
+        <a href="https://www.mozilla.org/en-US/about/governance/policies/participation/">Mozilla Community Participation Guidelines</a>.
+        We take this seriously, and by attending IndieWeb Summit you agree to do the same.</p>
+      <p>Need help? You can reach the IndieWeb Code of Conduct responders through the email below.
+        Responders will be monitoring this email address throughout the event.</p>
+      <ul>
+        <li><a href="mailto:conduct@2019.indieweb.org">conduct@2019.indieweb.org</a></li>
+      </ul>
+    </div>
+  </div>
 
   <div class="ui vertical stripe segment" id="rsvps">
     <div class="ui text container">
+      <?php include('../templates/summit/tito-registrations.php'); ?>
+
       <h3 class="ui header">Indie RSVPs</h3>
 
       <p>See <a href="https://indieweb.org/RSVP">indieweb.org/RSVP</a> for instructions on how to create an RSVP post. Once you've created the RSVP post which links to this page, send a Webmention and you'll appear below!</p>
 
-        <?php include('../templates/show-rsvps.php'); ?>
-
-      <h3 class="ui header">Tickets</h3>
-
-      <p>The people below registered for a ticket through the registration system.</p>
-      <?php include('../templates/show-tito-tickets.php'); ?>
+      <?php include('../templates/show-rsvps.php'); ?>
 
     </div>
   </div>
