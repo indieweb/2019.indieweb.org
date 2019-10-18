@@ -114,7 +114,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Register</h3>
-      <tito-widget event="indiewebcamp/berlin-2019"><a href="https://ti.to/indiewebcamp/berlin-2-2019">Get Tickets</a></tito-widget>
+      <tito-widget event="indiewebcamp/berlin-2-2019"><a href="https://ti.to/indiewebcamp/berlin-2-2019">Get Tickets</a></tito-widget>
 
     </div>
   </div>
