@@ -24,7 +24,7 @@ switch($ext) {
 }
 
 if(array_key_exists('event', $_GET))
-  $event = preg_replace('/[^a-z]/', '', $_GET['event']);
+  $event = preg_replace('/[^a-z0-9]/', '', $_GET['event']);
 else
   $event = 'summit';
 
