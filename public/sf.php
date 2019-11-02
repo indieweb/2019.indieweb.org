@@ -132,7 +132,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
     <div class="ui text container">
       <h3 class="ui header">Register</h3>
 
-      <tito-widget event="indiewebcamp/indiewebcamp-sf-2019"><a href="http://tickets.indieweb.org/indiewebcamp/sf-2019">Get Tickets</a></tito-widget>
+      <tito-widget event="indiewebcamp/sf-2019"><a href="http://tickets.indieweb.org/indiewebcamp/sf-2019">Get Tickets</a></tito-widget>
 
       <p style="font-size: 0.9em; margin-top: 0.5em;">Have a discount code? <a href="https://ti.to/indiewebcamp/sf-2019">Enter it here!</a></p>
 
