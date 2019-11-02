@@ -46,15 +46,6 @@ $summary = 'IndieWeb upcoming events.';
     <div class="ui text container">
 
 
-      <div class="h-event vevent">
-        <h3 class="ui header p-name summary">
-          <a class="u-url url" href="https://indieweb.org/2019/Brighton">IndieWebCamp Brighton</a>
-        </h3>
-        <p>
-          <span class="p-location location">Brighton, England</span><br />
-          <time class="dt-start dtstart" datetime="2019-10-19">October 19</time>-<time class="dt-end dtend" datetime="2019-10-20">20, 2019</time>
-        </p>
-      </div>
 
 
       <div class="h-event vevent">
@@ -66,6 +57,21 @@ $summary = 'IndieWeb upcoming events.';
           <time class="dt-start dtstart" datetime="2019-11-23">November 23</time>-<time class="dt-end dtend" datetime="2019-11-24">24, 2019</time>
         </p>
       </div>
+
+
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="https://2019.indieweb.org/sf">IndieWebCamp SF</a>
+        </h3>
+        <p>
+          <span class="p-location location">San Francisco, California</span><br />
+          <time class="dt-start dtstart" datetime="2019-12-07">December 7</time>-<time class="dt-end dtend" datetime="2019-12-08">8, 2019</time>
+        </p>
+      </div>
+
+
+
 
 
       <h2 style="margin-top:6em;">Past Events</h2>
@@ -170,6 +176,17 @@ $summary = 'IndieWeb upcoming events.';
           <time class="dt-start dtstart" datetime="2019-10-05">October 5</time>-<time class="dt-end dtend" datetime="2019-10-06">6, 2019</time>
         </p>
       </div>
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="https://indieweb.org/2019/Brighton">IndieWebCamp Brighton</a>
+        </h3>
+        <p>
+          <span class="p-location location">Brighton, England</span><br />
+          <time class="dt-start dtstart" datetime="2019-10-19">October 19</time>-<time class="dt-end dtend" datetime="2019-10-20">20, 2019</time>
+        </p>
+      </div>
+
 
       <div style="margin-top: 100px;">
         <p>See more related events at <a href="https://indieweb.org/events">indieweb.org/events</a></p>
