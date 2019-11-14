@@ -1,5 +1,5 @@
 <p>
-  <i class="calendar icon"></i> <time class="dt-start" datetime="2019-11-23">November 23</time>-<time class="dt-end" datetime="2019-11-24">24</time>, 2019<br>
+  <i class="calendar icon"></i> <time class="dt-start" datetime="2019-11-23">November 23</time>-<time class="dt-end" datetime="2019-11-24">24</time>, 2019<br/>
   <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Mozilla Berlin</span>, <span class="p-street-address">GSG-Hof Schlesische Straße, Building 3, 3rd floor, Schlesische Straße 27</span>, <span class="p-locality">Berlin</span>, <span class="p-country-name">Germany</span></span>
 </p>
 
@@ -27,7 +27,7 @@
 <!--  </div>-->
   <div class="day">
     <div class="header orange-bkg">
-      Saturday, November 23<br>
+      Saturday, November 23<br/>
       <span class="featured">Learn, Share, Discuss!</span>
     </div>
     <div class="summary">
@@ -49,7 +49,7 @@
   </div>
   <div class="day">
     <div class="header red-bkg">
-      Sunday, November 24<br>
+      Sunday, November 24<br/>
       <span class="featured">Create, Hack, Demo!</span>
     </div>
     <div class="summary">
@@ -71,8 +71,17 @@
   </div>
 </div>
 
-<br>
+<br/>
 
 <p>Schedule is subject to change. View the <a href="https://indieweb.org/2019/Berlin2/Schedule">full schedule grid</a> on the IndieWeb wiki for the latest updates.</p>
 
-<br>
+<br/>
+
+<h3 class="ui header">Keynote</h3>
+<div class="keynote-speakers">
+  <div class="speaker">
+    <!-- <a href="https://www.optoutools.com/"><img src=""/></a> -->
+    <p class="name">Teresa Ingram</p>
+    <p class="role">Towards A More Civil & Thoughtful Social Web</p>
+  </div>
+</div>
