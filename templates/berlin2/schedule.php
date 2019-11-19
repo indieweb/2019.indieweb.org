@@ -80,8 +80,24 @@
 <h3 class="ui header">Keynote</h3>
 <div class="keynote-speakers">
   <div class="speaker">
-    <!-- <a href="https://www.optoutools.com/"><img src=""/></a> -->
+    <a href="https://www.optoutools.com/"><img src="/images/teresa.jpg" /></a>
     <p class="name">Teresa Ingram</p>
     <p class="role">Towards A More Civil & Thoughtful Social Web</p>
+  </div>
+</div>
+
+<h3 class="ui header">Organizers</h3>
+<div class="keynote-speakers">
+  <div class="speaker">
+    <a href="http://hag.codes/"><img src="/images/yulia.jpg" /></a>
+    <p class="name">Yulia Startsev</p>
+  </div>
+  <div class="speaker">
+    <a href="https://tantek.com/"><img src="/images/tantek.jpg" /></a>
+    <p class="name">Tantek Çelik</p>
+  </div>
+  <div class="speaker">
+    <a href="https://rosemaryorchard.com/"><img src="/images/rose.jpg" /></a>
+    <p class="name">Rosemary Orchard</p>
   </div>
 </div>
