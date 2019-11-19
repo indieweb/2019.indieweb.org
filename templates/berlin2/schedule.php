@@ -98,6 +98,6 @@
   </div>
   <div class="speaker">
     <a href="https://rosemaryorchard.com/"><img src="/images/rose.jpg" /></a>
-    <p class="name">Rosemary Orchard</p>
+    <p class="name">Rosemary&nbsp;Orchard</p>
   </div>
 </div>
