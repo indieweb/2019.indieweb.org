@@ -25,7 +25,7 @@
 <!--        <p style="font-size:0.8em; margin-top: 1em;">The Baltimore Improv Group (BIG) is a non-profit for improvisational theatre shows and instruction. Co-organizer Marty will be appearing in the evening's 9PM show.</p>-->
 <!--    </div>-->
 <!--  </div>-->
-  <div class="day">
+  <div class="day" id="saturday">
     <div class="header orange-bkg">
       Saturday, November 23<br/>
       <span class="featured">Learn, Share, Discuss!</span>
@@ -38,7 +38,7 @@
        <li><span class="time">9:00</span> Organizer setup</li>
        <li><span class="time">9:30</span> Doors Open</li>
        <li><span class="time">10:00</span> Introduction</li>
-       <li><span class="time">10:15</span> Keynote</li>
+       <li><span class="time">10:15</span> Keynotes</li>
        <li><span class="time">11:00</span> Intros and Demos</li>
        <li><span class="time">11:45</span> <a href="https://indieweb.org/session_facilitating">Session Planning</a></li>
        <li><span class="time">12:00</span> Group photo &amp; lunch break</li>
@@ -47,7 +47,7 @@
       </ul>
     </div>    
   </div>
-  <div class="day">
+  <div class="day" id="sunday">
     <div class="header red-bkg">
       Sunday, November 24<br/>
       <span class="featured">Create, Hack, Demo!</span>
@@ -77,7 +77,7 @@
 
 <br/>
 
-<h3 class="ui header">Keynote</h3>
+<h3 class="ui header" id="keynotes">Keynotes</h3>
 <div class="keynote-speakers">
   <div class="speaker">
     <a href="https://www.optoutools.com/"><img src="/images/teresa.jpg" /></a>
@@ -91,7 +91,7 @@
   </div>
 </div>
 
-<h3 class="ui header">Organizers</h3>
+<h3 class="ui header" id="organizers">Organizers</h3>
 <div class="keynote-speakers">
   <div class="speaker">
     <a href="http://hag.codes/"><img src="/images/yulia.jpg" /></a>
