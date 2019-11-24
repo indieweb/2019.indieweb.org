@@ -84,6 +84,11 @@
     <p class="name">Teresa Ingram</p>
     <p class="role">Towards A More Civil & Thoughtful Social Web</p>
   </div>
+  <div class="speaker">
+    <a href="http://hag.codes/"><img src="/images/yulia.jpg" /></a>
+    <p class="name">Yulia Startsev</p>
+    <p class="role">My First IndieWebCamp</p>
+  </div>
 </div>
 
 <h3 class="ui header">Organizers</h3>
