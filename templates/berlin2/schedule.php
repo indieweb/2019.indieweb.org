@@ -63,9 +63,9 @@
        <li><span class="time">10:30</span> Hack sessions</li>
        <li><span class="time">12:45</span> Lunch</li>
        <li><span class="time">14:00</span> Hack sessions continue</li>
-       <li><span class="time">16:35</span> Demos</li>
-       <li><span class="time">17:45</span> Clean-up</li>
-       <li><span class="time">18:00</span> Camp closed</li>
+       <li><span class="time">16:00</span> Demos</li>
+       <li><span class="time">17:15</span> Clean-up</li>
+       <li><span class="time">17:30</span> Camp closed</li>
       </ul>
     </div>
   </div>
