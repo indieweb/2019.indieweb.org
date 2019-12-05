@@ -16,11 +16,11 @@
 
   $ticket_types[] = [
     'title' => 'Registrations',
-    'filter' => 'Regular',
+    'filter' => ['Regular','Free Ticket'],
   ];
   $ticket_types[] = [
     'title' => 'Remote Participants',
-    'filter' => 'Remote Participation',
+    'filter' => ['Remote Participation'],
   ];
 
   if($tickets):
@@ -31,7 +31,7 @@
     $count = 0;
     $hidden = 0;
     foreach($tickets as $ticket):
-      if(in_array($type['filter'], $ticket->ticket_type)):
+      if(array_intersect($type['filter'], $ticket->ticket_type)):
         if($ticket->show == 'yes'):
           $count++;
           if(!$ticket->website || !in_array(parse_url($ticket->website, PHP_URL_HOST), $websites)):
