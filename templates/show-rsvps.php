@@ -18,6 +18,8 @@ foreach($rsvps as $rsvp):
           <a href="<?= $rsvp['data']['author']['url'] ?>">
             <img src="/img.php?event=<?= $event ?>&img=<?= $rsvp['author_photo'] ?>" width="48" height="48" class="photo u-photo">
           </a>
+        <?php else: ?>
+          <img src="/img.php?event=<?= $event ?>&img=<?= $rsvp['author_photo'] ?>" width="48" height="48" class="photo u-photo">
         <?php endif; ?>
       <?php else: ?>
         <img src="/assets/no-photo.png" width="48" class="photo">
@@ -25,10 +27,14 @@ foreach($rsvps as $rsvp):
     </div>
     <div class="profile-info">
       <div>
-        <?php if($rsvp['data']['author']['url']): ?>
-          <a href="<?= $rsvp['data']['author']['url'] ?>" class="p-name u-url">
-           <?= $rsvp['data']['author']['name'] ?: '' ?>
-          </a>
+        <?php if ($rsvp['data']['author']['name']): ?>
+          <?php if($rsvp['data']['author']['url']): ?>
+            <a href="<?= $rsvp['data']['author']['url'] ?>" class="p-name u-url">
+             <?= $rsvp['data']['author']['name']; ?>
+            </a>
+          <?php else: ?>
+            <span class="p-name"><?= $rsvp['data']['author']['name']; ?></span>
+          <?php endif; ?>
         <?php endif; ?>
       </div>
       <div class="permalink"><a href="<?= $permalink ?>">permalink</a></div>
