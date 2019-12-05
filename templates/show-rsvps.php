@@ -33,7 +33,9 @@ foreach($rsvps as $rsvp):
              <?= $rsvp['data']['author']['name']; ?>
             </a>
           <?php else: ?>
-            <span class="p-name"><?= $rsvp['data']['author']['name']; ?></span>
+            <a href="<?= $permalink; ?>" class="p-name">
+             <?= $rsvp['data']['author']['name']; ?>
+            </a>
           <?php endif; ?>
         <?php endif; ?>
       </div>
