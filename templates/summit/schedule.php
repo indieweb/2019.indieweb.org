@@ -1,12 +1,12 @@
 <p>
-  <i class="calendar icon"></i> <time class="dt-start" datetime="2019-06-29">June 29</time>-<time class="dt-end" datetime="2019-06-30">30</time>, 2019<br>
+  <i class="calendar icon"></i> <time class="dt-start" datetime="2019-06-29">June 29</time>-<time class="dt-end" datetime="2019-06-30">30</time>, 2019<br/>
   <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Mozilla</span>, <span class="p-street-address">1120 NW Couch St #320</span>, <span class="p-locality">Portland</span>, <span class="p-region">Oregon</span></span>
 </p>
 
 <div class="schedule-grid">
   <div class="day h-event">
     <div class="header gold-bkg">
-      <time class="dt-start" datetime="2019-06-28T17:30:00-0700">Friday, June 28</time><br>
+      <time class="dt-start" datetime="2019-06-28T17:30:00-0700">Friday, June 28</time><br/>
       <span class="featured p-name">Pre-Summit Meetup</span>
     </div>
     <div class="summary p-description">
@@ -16,13 +16,13 @@
       <ul>
         <li><span class="time">17:30</span> <span class="featured">Pre-Summit Meetup!</span></li>
       </ul>
-      <span class="p-location h-card"><a class="p-name u-url" href="http://www.pinestreetpdx.com/">Pine Street Market</a><br><span class="p-street-address">126 SW 2nd St.</span></span>
+      <span class="p-location h-card"><a class="p-name u-url" href="http://www.pinestreetpdx.com/">Pine Street Market</a><br/><span class="p-street-address">126 SW 2nd St.</span></span>
       <p style="font-size:0.8em; margin-top: 1em;">Pine Street Market is an indoor food hall with a wide variety of food and drink options.</p>
     </div>
   </div>
   <div class="day">
     <div class="header orange-bkg">
-      Saturday, June 29<br>
+      Saturday, June 29<br/>
       <span class="featured">Keynotes &amp; Discussions</span>
     </div>
     <div class="summary">
@@ -42,7 +42,7 @@
   </div>
   <div class="day">
     <div class="header red-bkg">
-      Sunday, June 30<br>
+      Sunday, June 30<br/>
       <span class="featured">Create, Hack, Demo!</span>
     </div>
     <div class="summary">
@@ -52,7 +52,7 @@
       <ul>
         <li><span class="time">09:00</span> Doors open, badges, coffee, and breakfast!</li>
         <li><span class="time">09:30</span> Day 2 session scheduling</li>
-        <li><span class="time">10:00</span> <span class="featured">IndieWeb Creating:</span> <br>IndieWeb 101, IndieWebifying your WordPress, Dev intro to indieweb building blocks</li>
+        <li><span class="time">10:00</span> <span class="featured">IndieWeb Creating:</span> <br/>IndieWeb 101, IndieWebifying your WordPress, Dev intro to indieweb building blocks</li>
         <li><span class="time">11:00</span> Start creating!</li>
         <li><span class="time">12:00</span> Group photo &amp; catered lunch</li>
         <li><span class="time">13:00</span> Creating sessions continue</li>
@@ -63,8 +63,8 @@
   </div>
 </div>
 
-<br>
-<p>Schedule is subject to change. View the <a href="https://indieweb.org/2019/Schedule">full schedule grid</a> on the IndieWeb wiki for the latest updates.</p>
+<br/>
+<p>View the <a href="https://indieweb.org/2019/Schedule">full schedule grid</a> on the IndieWeb wiki for the latest updates.</p>
 
 
 
@@ -73,32 +73,32 @@
 <div class="keynote-speakers">
 
   <div class="speaker">
-    <a href="https://tantek.com/"><img src="/images/tantek.jpg"></a>
-    <p class="name">Tantek<br> Çelik</p>
+    <a href="https://tantek.com/"><img src="/images/tantek.jpg"/></a>
+    <p class="name">Tantek<br/> Çelik</p>
     <p class="role">State of the IndieWeb</p>
   </div>
 
   <div class="speaker">
-    <a href="https://kitt.hodsden.org/"><img src="/images/kitt-hodsden.jpg"></a>
-    <p class="name">Kitt<br> Hodsden</p>
+    <a href="https://kitt.hodsden.org/"><img src="/images/kitt-hodsden.jpg"/></a>
+    <p class="name">Kitt<br/> Hodsden</p>
     <p class="role">On Contractions &amp; Expansions</p>
   </div>
 
   <div class="speaker">
-    <a href="https://mjordan.codes/"><img src="/images/mjordan.jpg"></a>
-    <p class="name">mJordan<br>&nbsp;</p>
+    <a href="https://mjordan.codes/"><img src="/images/mjordan.jpg"/></a>
+    <p class="name">mJordan<br/>&nbsp;</p>
     <p class="role">Changing My Domain</p>
   </div>
 
   <div class="speaker">
-    <a href="https://martymcgui.re/"><img src="/images/schmarty.jpg"></a>
-    <p class="name">Marty<br> McGuire</p>
+    <a href="https://martymcgui.re/"><img src="/images/schmarty.jpg"/></a>
+    <p class="name">Marty<br/> McGuire</p>
     <p class="role">Own Your Mobile Experience</p>
   </div>
 
   <div class="speaker">
-    <a href="https://jacky.wtf/"><img src="/images/jacky.jpg"></a>
-    <p class="name">Jacky<br> Alciné</p>
+    <a href="https://jacky.wtf/"><img src="/images/jacky.jpg"/></a>
+    <p class="name">Jacky<br/> Alciné</p>
     <p class="role">Making the IndieWeb for All</p>
   </div>
 
@@ -106,8 +106,6 @@
 
 
 
-
-<br>
 
 <h3>Related Events</h3>
 
