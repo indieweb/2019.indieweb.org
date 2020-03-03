@@ -68,8 +68,7 @@
 
 
 
-<h3 class="ui header">Keynotes</h3>
-
+<h3 class="ui header" id="keynotes">Keynotes</h3>
 <div class="keynote-speakers">
 
   <div class="speaker">
