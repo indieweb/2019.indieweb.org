@@ -45,36 +45,8 @@ $summary = 'IndieWeb upcoming events.';
   <div class="ui vertical stripe segment h-feed" id="events">
     <div class="ui text container">
 
-
-
-
-      <div class="h-event vevent">
-        <h3 class="ui header p-name summary">
-          <a class="u-url url" href="https://2019.indieweb.org/berlin2">IndieWebCamp Berlin2</a>
-        </h3>
-        <p>
-          <span class="p-location location">Berlin, Germany</span><br />
-          <time class="dt-start dtstart" datetime="2019-11-23">November 23</time>-<time class="dt-end dtend" datetime="2019-11-24">24, 2019</time>
-        </p>
-      </div>
-
-
-
-      <div class="h-event vevent">
-        <h3 class="ui header p-name summary">
-          <a class="u-url url" href="https://2019.indieweb.org/sf">IndieWebCamp SF</a>
-        </h3>
-        <p>
-          <span class="p-location location">San Francisco, California</span><br />
-          <time class="dt-start dtstart" datetime="2019-12-07">December 7</time>-<time class="dt-end dtend" datetime="2019-12-08">8, 2019</time>
-        </p>
-      </div>
-
-
       <h3 class="ui header"><a href="https://2020.indieweb.org/">Join us in 2020!</a></h3>
       <p>We've got more IndieWebCamps planned in <a href="https://2020.indieweb.org/">2020</a>!</p>
-
-
 
       <h2 style="margin-top:6em;">Past Events</h2>
 
@@ -190,8 +162,30 @@ $summary = 'IndieWeb upcoming events.';
       </div>
 
 
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="https://2019.indieweb.org/berlin2">IndieWebCamp Berlin2</a>
+        </h3>
+        <p>
+          <span class="p-location location">Berlin, Germany</span><br />
+          <time class="dt-start dtstart" datetime="2019-11-23">November 23</time>-<time class="dt-end dtend" datetime="2019-11-24">24, 2019</time>
+        </p>
+      </div>
+
+
+
+      <div class="h-event vevent">
+        <h3 class="ui header p-name summary">
+          <a class="u-url url" href="https://2019.indieweb.org/sf">IndieWebCamp SF</a>
+        </h3>
+        <p>
+          <span class="p-location location">San Francisco, California</span><br />
+          <time class="dt-start dtstart" datetime="2019-12-07">December 7</time>-<time class="dt-end dtend" datetime="2019-12-08">8, 2019</time>
+        </p>
+      </div>
+
       <div style="margin-top: 100px;">
-        <p>See more related events at <a href="https://indieweb.org/events">indieweb.org/events</a></p>
+        <p>See more upcoming events at <a href="https://events.indieweb.org/">events.indieweb.org</a></p>
       </div>
 
     </div>
