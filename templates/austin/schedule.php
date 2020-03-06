@@ -1,5 +1,5 @@
 <p>
-  <i class="calendar icon"></i> <time class="dt-start" datetime="2018-02-23">February 23</time>-<time class="dt-end" datetime="2018-02-24">24</time>, 2019<br>
+  <i class="calendar icon"></i> <time class="dt-start" datetime="2018-02-23">February 23</time>-<time class="dt-end" datetime="2018-02-24">24</time>, 2019<br/>
   <i class="marker icon"></i> <span class="h-card p-location"><span class="p-name">Capital Factory</span>, <span class="p-street-address">701 Brazos St</span>, <span class="p-locality">Austin</span>, <span class="p-region">Texas</span></span>
 </p>
 
@@ -27,7 +27,7 @@
 <!--  </div>-->
   <div class="day">
     <div class="header orange-bkg">
-      Saturday, February 23<br>
+      Saturday, February 23<br/>
       <span class="featured">Learn, Share, Discuss!</span>
     </div>
     <div class="summary">
@@ -48,7 +48,7 @@
   </div>
   <div class="day">
     <div class="header red-bkg">
-      Sunday, February 24<br>
+      Sunday, February 24<br/>
       <span class="featured">Create, Hack, Demo!</span>
     </div>
     <div class="summary">
@@ -67,8 +67,6 @@
     </div>
   </div>
 </div>
-
-<br>
 
 <!--
 
