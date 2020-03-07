@@ -114,7 +114,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
   </div>
 
-
+<!--
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Register</h3>
@@ -122,7 +122,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
     </div>
   </div>
-
+-->
 
   <div class="ui vertical stripe segment" id="rsvps">
     <div class="ui text container">
@@ -213,10 +213,10 @@ var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/ligh
 map.addLayer(layer);
 
 var marker = L.marker([39.277222, -76.612136]).addTo(map);
-marker.bindPopup("<b>Digital Harbor Foundation Tech Center</b><br>1045 Light St.<br>Baltimore, Maryland").openPopup();
+marker.bindPopup("<b>Digital Harbor Foundation Tech Center</b><br/>1045 Light St.<br/>Baltimore, Maryland").openPopup();
 
 // var marker2 = L.marker([45.526159, -122.675330]).addTo(map);
-// marker2.bindPopup("<b>Pints</b><br>412 NW 5th Ave.<br>Portland, Oregon");
+// marker2.bindPopup("<b>Pints</b><br/>412 NW 5th Ave.<br/>Portland, Oregon");
 
 // $(function(){
 //   $(".popup").popup();
