@@ -127,7 +127,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
   </div>
 
-
+<!--
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Register</h3>
@@ -138,7 +138,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
     </div>
   </div>
-
+-->
   <div class="ui vertical stripe segment" id="code-of-conduct">
     <div class="ui text container">
       <h3 class="ui header">Code of Conduct</h3>
@@ -237,10 +237,10 @@ var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/ligh
 map.addLayer(layer);
 
 var marker = L.marker([45.523459, -122.682703]).addTo(map);
-marker.bindPopup("<b>Mozilla Portland</b><br>1120 NW Couch St. #320<br>Portland, Oregon").openPopup();
+marker.bindPopup("<b>Mozilla Portland</b><br/>1120 NW Couch St. #320<br/>Portland, Oregon").openPopup();
 
 var marker2 = L.marker([45.521450, -122.672375]).addTo(map);
-marker2.bindPopup("<b>Pine Street Market</b><br>126 SW 2nd Ave.<br>Portland, Oregon");
+marker2.bindPopup("<b>Pine Street Market</b><br/>126 SW 2nd Ave.<br/>Portland, Oregon");
 
 $(function(){
   $(".popup").popup();
