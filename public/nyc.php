@@ -127,7 +127,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
   </div>
 
-
+<!-- 
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Register</h3>
@@ -138,7 +138,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
     </div>
   </div>
-
+-->
   <div class="ui vertical stripe segment" id="code-of-conduct">
     <div class="ui text container">
       <h3 class="ui header">Code of Conduct</h3>
@@ -238,10 +238,10 @@ var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/ligh
 map.addLayer(layer);
 
 var marker = L.marker([40.7101649, -74.0059586]).addTo(map);
-marker.bindPopup("<b>Siedenberg School, Pace University</b><br>163 William St Floor 2<br>New York City, NY").openPopup();
+marker.bindPopup("<b>Siedenberg School, Pace University</b><br/>163 William St Floor 2<br/>New York City, NY").openPopup();
 
 var marker2 = L.marker([40.71165, -74.00537]).addTo(map);
-marker2.bindPopup("<b>Pace University</b><br>1 Pace Plaza<br>New York City, NY");
+marker2.bindPopup("<b>Pace University</b><br/>1 Pace Plaza<br/>New York City, NY");
 
 $(function(){
   $(".popup").popup();
