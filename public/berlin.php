@@ -110,7 +110,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
   </div>
 
-
+<!--
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Register</h3>
@@ -118,7 +118,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
     </div>
   </div>
-
+-->
 
   <div class="ui vertical stripe segment" id="rsvps">
     <div class="ui text container">
@@ -199,7 +199,7 @@ var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/ligh
 map.addLayer(layer);
 
 var marker = L.marker([52.4994682,13.4491388]).addTo(map);
-marker.bindPopup("<b>Mozilla Berlin</b><br>GSG-Hof Schlesische Straße<br>Building 3, 3rd floor<br>Schlesische Straße 27,<br>10997 Berlin,<br>Germany").openPopup();
+marker.bindPopup("<b>Mozilla Berlin</b><br/>GSG-Hof Schlesische Straße<br/>Building 3, 3rd floor<br/>Schlesische Straße 27,<br/>10997 Berlin,<br/>Germany").openPopup();
 
 </script>
 <script>
