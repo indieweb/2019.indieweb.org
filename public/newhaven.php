@@ -107,7 +107,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
   </div>
 
-
+<!--
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Registration</h3>
@@ -115,7 +115,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
     </div>
   </div>
-
+-->
 
   <div class="ui vertical stripe segment" id="rsvps">
  <div class="ui text container">
@@ -204,9 +204,9 @@ var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/ligh
 });
 map.addLayer(layer);
 var marker = L.marker([41.3326, -72.9475]).addTo(map);
-marker.bindPopup("<b>Southern Connecticut State University</b><br>501 Crescent Avenue.<br>New Haven, CT 06117.").openPopup();
+marker.bindPopup("<b>Southern Connecticut State University</b><br/>501 Crescent Avenue.<br/>New Haven, CT 06117.").openPopup();
 // var marker2 = L.marker([41.3326, 72.9475]).addTo(map);
-// marker2.bindPopup("<b>Pints</b><br>412 NW 5th Ave.<br>Portland, Oregon");
+// marker2.bindPopup("<b>Pints</b><br/>412 NW 5th Ave.<br/>Portland, Oregon");
 // $(function(){
 //   $(".popup").popup();
 // });
