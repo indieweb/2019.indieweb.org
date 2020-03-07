@@ -127,7 +127,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
   </div>
 
-
+<!--
   <div class="ui vertical stripe segment" id="register">
     <div class="ui text container">
       <h3 class="ui header">Register</h3>
@@ -140,7 +140,7 @@ include(dirname(__FILE__).'/../lib/rsvps.php');
 
     </div>
   </div>
-
+-->
   <div class="ui vertical stripe segment" id="code-of-conduct">
     <div class="ui text container">
       <h3 class="ui header">Code of Conduct</h3>
@@ -240,7 +240,7 @@ var layer = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/ligh
 map.addLayer(layer);
 
 var marker2 = L.marker([37.789524, -122.389084]).addTo(map);
-marker2.bindPopup("<b>Mozilla SF</b><br>2 Harrison St<br>San Francisco, CA");
+marker2.bindPopup("<b>Mozilla SF</b><br/>2 Harrison St<br/>San Francisco, CA");
 
 $(function(){
   $(".popup").popup();
