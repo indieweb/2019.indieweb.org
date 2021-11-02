@@ -45,9 +45,6 @@ $summary = 'IndieWeb upcoming events.';
   <div class="ui vertical stripe segment h-feed" id="events">
     <div class="ui text container">
 
-      <h3 class="ui header"><a href="https://2020.indieweb.org/">Join us in 2020!</a></h3>
-      <p>We've got more IndieWebCamps planned in <a href="https://2020.indieweb.org/">2020</a>!</p>
-
       <h2 style="margin-top:6em;">Past Events</h2>
 
       <div class="h-event vevent">
